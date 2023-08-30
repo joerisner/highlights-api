@@ -2,7 +2,7 @@ import { findAuthorById } from '../models/author.js';
 import { findQuotationById, numQuotations } from '../models/quotation.js';
 import { findSourceById } from '../models/source.js';
 
-export const getRandomHighlight = async (res) => {
+export const getRandomHighlight = async res => {
   try {
     const randomId = Math.floor(Math.random() * numQuotations() + 1);
     const quotation = await findQuotationById(randomId);
@@ -10,8 +10,7 @@ export const getRandomHighlight = async (res) => {
     const source = await findSourceById(quotation.sourceId);
 
     res.writeHead(200, { 'Content-Type': 'application/json' });
-    res.write(JSON.stringify({ author, quotation, source }));
-    res.end();
+    res.end(JSON.stringify({ author, quotation, source }));
   } catch (err) {
     console.error(err);
   }

@@ -5,9 +5,15 @@
   "type": "module",
   "license": "UNLICENSED",
   "scripts": {
+    "format": "prettier . --check",
+    "lint": "eslint .",
     "start": "node src/server.js"
   },
   "dependencies": {
     "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.48.0",
+    "prettier": "^3.0.3"
   }
 }
