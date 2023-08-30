@@ -4,10 +4,15 @@
   "description": "API serving highlighted quotes from books I've read",
   "type": "module",
   "license": "UNLICENSED",
+  "imports": {
+    "#controllers/*": "./src/controllers/*.js",
+    "#models/*": "./src/models/*.js"
+  },
   "scripts": {
     "format": "prettier . --check",
     "lint": "eslint .",
-    "start": "node src/server.js"
+    "start": "node src/server.js",
+    "test": "node --test --test-reporter=spec"
   },
   "dependencies": {
     "dotenv": "^16.3.1"
