@@ -5,4 +5,9 @@ const jsonUrl = new URL('../data/sources.json', import.meta.url);
 const { sources } = JSON.parse(await readFile(jsonUrl, 'utf8'));
 
 export const findSourceById = sourceId =>
-  new Promise(resolve => resolve(sources.find(source => source.id === sourceId)));
+  new Promise((resolve, reject) => {
+    const source = sources.find(source => source.id === sourceId);
+
+    if (source) resolve(source);
+    reject(new Error(`Could not find a source with id ${sourceId}`));
+  });
