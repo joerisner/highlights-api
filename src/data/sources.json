@@ -1,0 +1,29 @@
+{
+  "sources": [
+    {
+      "id": 1,
+      "title": "The Hobbit",
+      "type": "BOOK"
+    },
+    {
+      "id": 2,
+      "title": "Habits of the Household",
+      "type": "BOOK"
+    },
+    {
+      "id": 3,
+      "title": "The Normal Christian Life",
+      "type": "BOOK"
+    },
+    {
+      "id": 4,
+      "title": "programming is terrible",
+      "type": "BLOG_ARTICLE"
+    },
+    {
+      "id": 5,
+      "title": "The Intentional Father",
+      "type": "BOOK"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+# Dependencies
+node_modules
+
+# Env vars
+.env
+
+# Notes
+.notes.md

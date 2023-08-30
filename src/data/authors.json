@@ -1,0 +1,29 @@
+{
+  "authors": [
+    {
+      "id": 1,
+      "firstName": "J.R.R.",
+      "lastName": "Tolkien"
+    },
+    {
+      "id": 2,
+      "firstName": "Justin Whitmel",
+      "lastName": "Earley"
+    },
+    {
+      "id": 3,
+      "firstName": "Watchman",
+      "lastName": "Nee"
+    },
+    {
+      "id": 4,
+      "firstName": "Thomas",
+      "lastName": "Figg"
+    },
+    {
+      "id": 5,
+      "firstName": "Jon",
+      "lastName": "Tyson"
+    }
+  ]
+}
