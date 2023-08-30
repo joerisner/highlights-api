@@ -2,7 +2,7 @@ import { findAuthorById } from '../models/author.js';
 import { findQuotationById, numQuotations } from '../models/quotation.js';
 import { findSourceById } from '../models/source.js';
 
-export const getRandomHighlight = async (res) => {
+export const getRandomHighlight = async res => {
   try {
     const randomId = Math.floor(Math.random() * numQuotations() + 1);
     const quotation = await findQuotationById(randomId);
