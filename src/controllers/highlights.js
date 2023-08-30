@@ -1,6 +1,6 @@
-import { findAuthorById } from '../models/author.js';
-import { findQuotationById, numQuotations } from '../models/quotation.js';
-import { findSourceById } from '../models/source.js';
+import { findAuthorById } from '#models/author';
+import { findQuotationById, numQuotations } from '#models/quotation';
+import { findSourceById } from '#models/source';
 
 export const getRandomHighlight = async res => {
   try {

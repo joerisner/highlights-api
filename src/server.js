@@ -1,6 +1,6 @@
 import http from 'http';
 import { config } from 'dotenv';
-import { getRandomHighlight } from './controllers/highlights.js';
+import { getRandomHighlight } from '#controllers/highlights';
 config();
 
 const server = http.createServer((req, res) => {
