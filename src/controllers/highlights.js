@@ -10,8 +10,7 @@ export const getRandomHighlight = async res => {
     const source = await findSourceById(quotation.sourceId);
 
     res.writeHead(200, { 'Content-Type': 'application/json' });
-    res.write(JSON.stringify({ author, quotation, source }));
-    res.end();
+    res.end(JSON.stringify({ author, quotation, source }));
   } catch (err) {
     console.error(err);
   }

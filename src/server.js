@@ -1,17 +1,22 @@
 import http from 'http';
-import dotenv from 'dotenv';
+import { config } from 'dotenv';
 import { getRandomHighlight } from './controllers/highlights.js';
-
-dotenv.config();
+config();
 
 const server = http.createServer((req, res) => {
-  if (req.url === '/random' && req.method === 'GET') {
-    getRandomHighlight(res);
+  if (req.method != 'GET') {
+    res.writeHead(400, { 'Content-Type': 'application/json' });
+    res.end(JSON.stringify({ message: 'Bad Request' }));
     return;
   }
 
-  res.writeHead(404, { 'Content-Type': 'application/json' });
-  res.end(JSON.stringify({ message: res.statusMessage }));
+  if (req.url != '/random') {
+    res.writeHead(404, { 'Content-Type': 'application/json' });
+    res.end(JSON.stringify({ message: 'Not Found' }));
+    return;
+  }
+
+  getRandomHighlight(res);
 });
 
 const PORT = process.env.PORT;
