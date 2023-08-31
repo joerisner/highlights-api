@@ -5,4 +5,9 @@ const jsonUrl = new URL('../data/authors.json', import.meta.url);
 const { authors } = JSON.parse(await readFile(jsonUrl, 'utf8'));
 
 export const findAuthorById = authorId =>
-  new Promise(resolve => resolve(authors.find(author => author.id === authorId)));
+  new Promise((resolve, reject) => {
+    const author = authors.find(author => author.id === authorId);
+
+    if (author) resolve(author);
+    reject(new Error(`Could not find an author with id ${authorId}`));
+  });

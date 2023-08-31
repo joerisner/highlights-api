@@ -5,6 +5,11 @@ const jsonUrl = new URL('../data/quotations.json', import.meta.url);
 const { quotations } = JSON.parse(await readFile(jsonUrl, 'utf8'));
 
 export const findQuotationById = quotationId =>
-  new Promise(resolve => resolve(quotations.find(quotation => quotation.id === quotationId)));
+  new Promise((resolve, reject) => {
+    const quotation = quotations.find(quotation => quotation.id === quotationId);
+
+    if (quotation) resolve(quotation);
+    reject(new Error(`Could not find a quotation with id ${quotationId}`));
+  });
 
 export const numQuotations = () => quotations.length;

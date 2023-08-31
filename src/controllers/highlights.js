@@ -11,8 +11,10 @@ export const getRandomHighlight = async res => {
 
     res.writeHead(200, { 'Content-Type': 'application/json' });
     res.end(JSON.stringify({ author, quotation, source }));
-  } catch (err) {
-    console.error(err);
+  } catch (e) {
+    res.writeHead(500, { 'Content-Type': 'application/json' });
+    res.end(JSON.stringify({ message: e.message }));
+    console.error(e);
   }
 };
 

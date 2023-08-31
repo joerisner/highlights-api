@@ -12,12 +12,15 @@
     "format": "prettier . --check",
     "lint": "eslint .",
     "start": "node src/server.js",
-    "test": "node --test --test-reporter=spec"
+    "test:api": "playwright test",
+    "test:report": "playwright show-report ./test/api/report",
+    "test:unit": "node --test --test-reporter=dot ./test/unit/"
   },
   "dependencies": {
     "dotenv": "^16.3.1"
   },
   "devDependencies": {
+    "@playwright/test": "1.37.1",
     "eslint": "^8.48.0",
     "prettier": "^3.0.3"
   }
