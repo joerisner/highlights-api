@@ -9,12 +9,13 @@
     "#models/*": "./src/models/*.js"
   },
   "scripts": {
+    "clean": "node bin/clean.js",
     "format": "prettier . --check",
     "lint": "eslint .",
     "start": "node src/server.js",
     "test:api": "playwright test",
-    "test:report": "playwright show-report ./test/api/report",
-    "test:unit": "node --test --test-reporter=dot ./test/unit/"
+    "test:report": "playwright show-report test/api/report",
+    "test:unit": "node --test --test-reporter=dot test/unit/"
   },
   "dependencies": {
     "dotenv": "^16.3.1"
