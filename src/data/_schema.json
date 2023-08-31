@@ -1,0 +1,27 @@
+{
+  "models": {
+    "authors": [
+      {
+        "id": "integer",
+        "firstName": "string",
+        "lastName": "string"
+      }
+    ],
+    "quotations": [
+      {
+        "id": "integer",
+        "body": "string",
+        "metadata": "string",
+        "authorId": "integer",
+        "sourceId": "integer"
+      }
+    ],
+    "sources": [
+      {
+        "id": "integer",
+        "title": "string",
+        "type": "string"
+      }
+    ]
+  }
+}
