@@ -24,6 +24,16 @@
       "id": 5,
       "title": "The Intentional Father",
       "type": "BOOK"
+    },
+    {
+      "id": 6,
+      "title": "West India Emancipation Address",
+      "type": "SPEECH"
+    },
+    {
+      "id": 7,
+      "title": "Winesburg, Ohio: A Group of Tales of Ohio Small Town Life",
+      "type": "BOOK"
     }
   ]
 }
