@@ -34,6 +34,11 @@
       "id": 7,
       "title": "Winesburg, Ohio: A Group of Tales of Ohio Small Town Life",
       "type": "BOOK"
+    },
+    {
+      "id": 8,
+      "title": "The Power of Moments",
+      "type": "BOOK"
     }
   ]
 }
