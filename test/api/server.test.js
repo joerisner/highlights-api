@@ -28,7 +28,7 @@ test.describe('/random', () => {
   });
 
   test('respond with 404 for invalid route', async ({ request }) => {
-    const result = await request.get('/rando');
+    const result = await request.get('/');
 
     expect(result.status()).toBe(404);
     expect(result.headers()).toMatchObject({ 'content-type': 'application/json' });
