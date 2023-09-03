@@ -5,7 +5,10 @@ test.describe('/random', () => {
     const result = await request.get('/random');
 
     expect(result.status()).toBe(200);
-    expect(result.headers()).toMatchObject({ 'content-type': 'application/json' });
+    expect(result.headers()).toMatchObject({
+      'content-type': 'application/json; charset=utf-8',
+      'access-control-allow-origin': '*'
+    });
     expect(await result.json()).toEqual({
       author: { id: expect.any(Number), firstName: expect.any(String), lastName: expect.any(String) },
       quotation: {
@@ -23,7 +26,7 @@ test.describe('/random', () => {
     const result = await request.put('/random');
 
     expect(result.status()).toBe(400);
-    expect(result.headers()).toMatchObject({ 'content-type': 'application/json' });
+    expect(result.headers()).toMatchObject({ 'content-type': 'application/json; charset=utf-8' });
     expect(await result.json()).toEqual({ message: 'Bad Request' });
   });
 
@@ -31,7 +34,7 @@ test.describe('/random', () => {
     const result = await request.get('/');
 
     expect(result.status()).toBe(404);
-    expect(result.headers()).toMatchObject({ 'content-type': 'application/json' });
+    expect(result.headers()).toMatchObject({ 'content-type': 'application/json; charset=utf-8' });
     expect(await result.json()).toEqual({ message: 'Not Found' });
   });
 });
