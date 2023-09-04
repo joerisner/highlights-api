@@ -39,6 +39,11 @@
       "id": 8,
       "firstName": "Chip & Dan",
       "lastName": "Heath"
+    },
+    {
+      "id": 9,
+      "firstName": "C.S.",
+      "lastName": "Lewis"
     }
   ]
 }
