@@ -1,7 +1,5 @@
 import http from 'http';
-import { config } from 'dotenv';
 import { getRandomHighlight } from '#controllers/random';
-config();
 
 const server = http.createServer(async (req, res) => {
   const baseHeaders = { 'Content-Type': 'application/json; charset=utf-8' };

@@ -12,13 +12,10 @@
     "clean": "node bin/clean.js",
     "format": "prettier . --check",
     "lint": "eslint .",
-    "start": "node src/server.js",
-    "test:api": "playwright test",
+    "start": "node --env-file .env src/server.js",
+    "test:api": "PORT=4000 playwright test",
     "test:report": "playwright show-report test/api/report",
     "test:unit": "node --test --test-reporter=dot test/unit/"
-  },
-  "dependencies": {
-    "dotenv": "^16.3.1"
   },
   "devDependencies": {
     "@playwright/test": "1.37.1",

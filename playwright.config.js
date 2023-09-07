@@ -1,6 +1,5 @@
 import { defineConfig } from '@playwright/test';
-import { config } from 'dotenv';
-config();
+const PORT = 4000; // NOTE: Remove this once Playwright is on Node v20.6.0+
 
 export default defineConfig({
   fullyParallel: true,
@@ -10,13 +9,14 @@ export default defineConfig({
   testDir: './test/api',
   timeout: 10000,
   use: {
-    baseURL: `http://localhost:${process.env.PORT}`,
+    baseURL: `http://localhost:${PORT}`,
     extraHTTPHeaders: { Accept: 'application/json' }, // Headers sent with every request
     trace: 'retain-on-failure'
   },
   webServer: {
-    command: 'npm start',
-    port: process.env.PORT,
+    // NOTE: Update this to a simple `npm start' once Playwright is on Node v20.6.0+
+    command: `PORT=${PORT} node src/server.js`,
+    port: PORT,
     reuseExistingServer: !process.env.CI,
     timeout: 12000
   },
