@@ -39,6 +39,11 @@
       "id": 8,
       "title": "The Power of Moments",
       "type": "BOOK"
+    },
+    {
+      "id": 9,
+      "title": "Mere Christianity",
+      "type": "BOOK"
     }
   ]
 }
