@@ -1,4 +1,4 @@
-// All this is to get around ESLint not being able to parse type assertions
+// NOTE: All this is to get around ESLint not being able to parse type assertions
 //  for JSON imports w/ ESM. Replace this later w/ a single-line import.
 import { readFile } from 'node:fs/promises';
 const jsonUrl = new URL('../data/quotations.json', import.meta.url);

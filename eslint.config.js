@@ -7,7 +7,7 @@ export default [
   {
     languageOptions: { globals: { ...globals.node, ...globals.browser } },
     rules: {
-      'max-nested-callbacks': ['error', 2],
+      'max-nested-callbacks': ['error', 3],
       'no-return-await': 'error',
       'prefer-promise-reject-errors': ['error', { allowEmptyReject: true }]
     }

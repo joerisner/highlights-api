@@ -15,7 +15,7 @@
     "start": "node src/server.js",
     "test:api": "playwright test",
     "test:report": "playwright show-report test/api/report",
-    "test:unit": "node --test --test-reporter=dot test/unit/"
+    "test:unit": "node --test --test-reporter=spec test/unit/"
   },
   "dependencies": {
     "dotenv": "^16.3.1"
