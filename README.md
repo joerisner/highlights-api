@@ -1,18 +1,24 @@
 # Highlights API
 
-This is an API serving highlighted quotes from books I've read. The project is deliberately minimal:
+This is an API serving highlighted quotes from books I've read.
 
-- It implements native node modules in most cases (with exceptions for some devDependencies)
-- The data is maintained within the project ([src/data](https://github.com/joerisner/highlights-api/tree/master/src/data)). The models are simple enough and, currently, I don't want the overhead of a database. That may change in the future, though :man_shrugging:.
+## Built with
+
+- :vertical_traffic_light: Routing: [Express](https://expressjs.com/)
+- :test_tube: Testing: [Playwright](https://playwright.dev/)
+
+## Data
+
+The data is maintained within the project ([src/data](https://github.com/joerisner/highlights-api/tree/master/src/data)). The models are simple enough and, currently, I don't want the overhead of a database. That may change in the future, though.
 
 ## Getting started
 
-With a couple of tweaks, you could use this project to serve your own favorite highlights or quotes.
-
-1. Rename `.env.example` to `.env` and replace the example values with your own values.
+1. Rename `.env.example` to `.env` and replace the example values with your own values
 2. Ensure you're running the proper version of Node (reference the [.nvmrc](https://github.com/joerisner/highlights-api/blob/master/.nvmrc) file)
-3. Replace the data I have in `src/data/*` with your own, using the proper schema.
-4. Start the server (`npm start`) and use your REST API client of choice for making requests (curl, Postman, Thunder Client, etc.)
+3. Install dependencies (`npm i`)
+4. Start the server (`npm start`) and use your REST client of choice for making requests (curl, Postman, Thunder Client, etc.)
+
+With a couple of tweaks, you could use this project to serve your own favorite highlights or quotes. To do so, replace the data I have in `src/data/*` with your own, using the schema defined in [src/data/\_schema.json](https://github.com/joerisner/highlights-api/blob/master/src/data/_schema.json).
 
 ## Example request
 
