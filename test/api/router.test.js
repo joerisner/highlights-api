@@ -1,7 +1,7 @@
 import { test, expect } from '@playwright/test';
 
-test.describe('/random', () => {
-  test('respond with success', async ({ request }) => {
+test.describe('router', () => {
+  test('/random', async ({ request }) => {
     const result = await request.get('/random');
 
     expect(result.status()).toBe(200);
@@ -20,23 +20,5 @@ test.describe('/random', () => {
       },
       source: { id: expect.any(Number), title: expect.any(String), type: expect.any(String) }
     });
-  });
-
-  // TODO: Add custom error handler & move to separate test file
-  test.fixme('respond with 400 for any method other than GET', async ({ request }) => {
-    const result = await request.put('/random');
-
-    expect(result.status()).toBe(400);
-    expect(result.headers()).toMatchObject({ 'content-type': 'application/json; charset=utf-8' });
-    expect(await result.json()).toEqual({ message: 'Bad Request' });
-  });
-
-  // TODO: Add custom error handler & move to separate test file
-  test.fixme('respond with 404 for invalid route', async ({ request }) => {
-    const result = await request.get('/');
-
-    expect(result.status()).toBe(404);
-    expect(result.headers()).toMatchObject({ 'content-type': 'application/json; charset=utf-8' });
-    expect(await result.json()).toEqual({ message: 'Not Found' });
   });
 });
