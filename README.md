@@ -2,11 +2,6 @@
 
 This is an API serving highlighted quotes from books I've read.
 
-## Built with
-
-- :vertical_traffic_light: Routing: [Express](https://expressjs.com/)
-- :test_tube: Testing: [Playwright](https://playwright.dev/)
-
 ## Data
 
 The data is maintained within the project ([src/data](https://github.com/joerisner/highlights-api/tree/master/src/data)). The models are simple enough and, currently, I don't want the overhead of a database. That may change in the future, though.
