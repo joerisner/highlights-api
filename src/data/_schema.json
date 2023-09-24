@@ -13,7 +13,8 @@
         "body": "string",
         "metadata": "string",
         "authorId": "integer",
-        "sourceId": "integer"
+        "sourceId": "integer",
+        "tagIds": ["string"]
       }
     ],
     "sources": [
@@ -21,6 +22,12 @@
         "id": "integer",
         "title": "string",
         "type": "string"
+      }
+    ],
+    "tags": [
+      {
+        "id": "integer",
+        "name": "string"
       }
     ]
   }

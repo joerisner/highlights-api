@@ -16,7 +16,8 @@ test.describe('router', () => {
         body: expect.any(String),
         metadata: expect.any(String),
         authorId: expect.any(Number),
-        sourceId: expect.any(Number)
+        sourceId: expect.any(Number),
+        tagIds: expect.any(Array)
       },
       source: { id: expect.any(Number), title: expect.any(String), type: expect.any(String) }
     });

@@ -17,7 +17,8 @@ describe('findQuotationById()', () => {
       body: 'Nothing important is easy.',
       metadata: 'Page 13',
       authorId: 2,
-      sourceId: 2
+      sourceId: 2,
+      tagIds: [1]
     });
   });
 });
