@@ -44,6 +44,11 @@
       "id": 9,
       "firstName": "C.S.",
       "lastName": "Lewis"
+    },
+    {
+      "id": 10,
+      "firstName": "Robert",
+      "lastName": "Ruark"
     }
   ]
 }
