@@ -6,7 +6,7 @@
       "metadata": "Chapter 7",
       "authorId": 1,
       "sourceId": 1,
-      "tagIds": [2]
+      "tagIds": [2, 14]
     },
     {
       "id": 2,
@@ -1804,6 +1804,70 @@
       "id": 226,
       "body": "When I was eleven...I went back to my bedroom later, and on the bed was a 16-gauge double with a leather case that had my name on it.",
       "metadata": "Chapter 1",
+      "authorId": 10,
+      "sourceId": 10,
+      "tagIds": [13]
+    },
+    {
+      "id": 227,
+      "body": "It was the kind of day when a walk seems necessary...",
+      "metadata": "Chapter 2",
+      "authorId": 10,
+      "sourceId": 10,
+      "tagIds": [1]
+    },
+    {
+      "id": 228,
+      "body": "He said curiosity was necessary to intelligence, and that curiosity never killed the cat. The cat died from stupidity, he said, or mebbe an overdose of mice.",
+      "metadata": "Chapter 3",
+      "authorId": 10,
+      "sourceId": 10,
+      "tagIds": []
+    },
+    {
+      "id": 229,
+      "body": "When a duck is coming down, you aim at his tail. When a duck is coming up, you aim at his nose. When he is doing either one of those things but crosswise, lead him. Lead him twice as far as you think you need to lead him.",
+      "metadata": "Chapter 3",
+      "authorId": 10,
+      "sourceId": 10,
+      "tagIds": [13]
+    },
+    {
+      "id": 230,
+      "body": "A man's first duck is an adventure.",
+      "metadata": "Chapter 3",
+      "authorId": 10,
+      "sourceId": 10,
+      "tagIds": [13, 14]
+    },
+    {
+      "id": 231,
+      "body": "The whole purpose of summer fishing,\" the Old Man, \"is not to worry about catching fish, but to just get out of the house and set and think a little. Also, the womenfolk are very bad-tempered in the summer. The less you hang around the premises the less trouble you're apt to get in.\"",
+      "metadata": "Chapter 4",
+      "authorId": 10,
+      "sourceId": 10,
+      "tagIds": [13]
+    },
+    {
+      "id": 232,
+      "body": "Summertime is an overrated time, I think today, full of sunburn and poison ivy and expensive vacations. But for a boy like me, at that time, summertime was a time of almost unbearable happiness.",
+      "metadata": "Chapter 4",
+      "authorId": 10,
+      "sourceId": 10,
+      "tagIds": [14]
+    },
+    {
+      "id": 233,
+      "body": "If you are a very small boy, being close to water makes the summer a marvelous thing.",
+      "metadata": "Chapter 4",
+      "authorId": 10,
+      "sourceId": 10,
+      "tagIds": [14]
+    },
+    {
+      "id": 234,
+      "body": "\"Once in a while,\" the Old Man said, \"a fellow wants to get away from everything that's complicated, and fishing is really the only way I know of to do it.\"",
+      "metadata": "Chapter 4",
       "authorId": 10,
       "sourceId": 10,
       "tagIds": [13]

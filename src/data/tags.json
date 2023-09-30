@@ -50,7 +50,11 @@
     },
     {
       "id": 13,
-      "name": "Hunting"
+      "name": "Hunting/Fishing"
+    },
+    {
+      "id": 14,
+      "name": "Adventure"
     }
   ]
 }
