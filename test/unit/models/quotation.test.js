@@ -5,7 +5,7 @@ import {
   findQuotationsByAuthorId,
   findQuotationsBySourceId,
   findQuotationsByTagId,
-  numQuotations
+  findAllQuotations
 } from '#models/quotation';
 
 describe('findQuotationById()', () => {
@@ -77,8 +77,10 @@ describe('findQuotationsByTagId()', () => {
   });
 });
 
-describe('numQuotations()', () => {
-  test('returns number', () => {
-    assert.equal(typeof numQuotations(), 'number');
+describe('findAllQuotations()', () => {
+  test('returns quotations array', async () => {
+    const results = await findAllQuotations();
+    assert.equal(Array.isArray(results), true);
+    results.forEach(result => assert.equal(typeof result, 'object'));
   });
 });

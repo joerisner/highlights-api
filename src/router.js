@@ -1,6 +1,6 @@
 import { Router } from 'express';
 import { getAuthors } from '#controllers/authors';
-import { getRandomHighlight } from '#controllers/random';
+import { getRandomHighlight } from '#controllers/highlights';
 import { getSources } from '#controllers/sources';
 import { getTags } from '#controllers/tags';
 

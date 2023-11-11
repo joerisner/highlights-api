@@ -6,13 +6,14 @@
   "license": "UNLICENSED",
   "imports": {
     "#controllers/*": "./src/controllers/*.js",
-    "#models/*": "./src/models/*.js"
+    "#models/*": "./src/models/*.js",
+    "#utils/*": "./src/utils/*.js"
   },
   "scripts": {
     "clean": "node bin/clean.js",
     "format": "prettier . --check",
     "lint": "eslint .",
-    "start": "node src/index.js",
+    "start": "node ./src/index.js",
     "test:api": "playwright test",
     "test:report": "playwright show-report test/api/report",
     "test:unit": "node --test --test-reporter=spec test/unit/"

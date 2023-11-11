@@ -1,8 +1,8 @@
-import { getAllAuthors } from '#models/author';
+import { findAllAuthors } from '#models/author';
 
 export const getAuthors = async (_req, res, next) => {
   try {
-    const authors = await getAllAuthors();
+    const authors = await findAllAuthors();
     res.status(200).setHeader('Access-Control-Allow-Origin', '*').json(authors);
   } catch (err) {
     next(err);

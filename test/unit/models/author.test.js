@@ -1,6 +1,6 @@
 import { test, describe } from 'node:test';
 import assert from 'node:assert/strict';
-import { findAuthorById, getAllAuthors } from '#models/author';
+import { findAuthorById, findAllAuthors } from '#models/author';
 
 describe('findAuthorById()', () => {
   test('resolves promise when author is found', () => {
@@ -16,13 +16,13 @@ describe('findAuthorById()', () => {
   });
 });
 
-describe('getAllAuthors()', () => {
+describe('findAllAuthors()', () => {
   test('resolves promise', () => {
-    assert.doesNotReject(getAllAuthors());
+    assert.doesNotReject(findAllAuthors());
   });
 
   test('returns array of authors', async () => {
-    const result = await getAllAuthors();
+    const result = await findAllAuthors();
     const { authors } = result;
 
     assert.equal(typeof result, 'object');

@@ -1,6 +1,6 @@
 import { test, describe } from 'node:test';
 import assert from 'node:assert/strict';
-import { findSourceById, getAllSources } from '#models/source';
+import { findSourceById, findAllSources } from '#models/source';
 
 describe('findSourceById()', () => {
   test('resolves promise when source is found', () => {
@@ -16,13 +16,13 @@ describe('findSourceById()', () => {
   });
 });
 
-describe('getAllSources()', () => {
+describe('findAllSources()', () => {
   test('resolves promise', () => {
-    assert.doesNotReject(getAllSources());
+    assert.doesNotReject(findAllSources());
   });
 
   test('returns array of sources', async () => {
-    const result = await getAllSources();
+    const result = await findAllSources();
     const { sources } = result;
 
     assert.equal(typeof result, 'object');

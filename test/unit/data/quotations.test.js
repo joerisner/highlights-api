@@ -1,10 +1,8 @@
 import { test, describe } from 'node:test';
 import assert from 'node:assert/strict';
-// NOTE: All this is to get around ESLint not being able to parse type assertions
-//  for JSON imports w/ ESM. Replace this later w/ a single-line import.
-import { readFile } from 'node:fs/promises';
-const jsonUrl = new URL('../../../src/data/quotations.json', import.meta.url);
-const { quotations } = JSON.parse(await readFile(jsonUrl, 'utf8'));
+import { loadJson } from '#utils/jsonLoader';
+
+const { quotations } = await loadJson('quotations');
 
 describe('Quotations JSON', () => {
   test('validates no duplicate IDs', () => {
