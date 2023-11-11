@@ -1871,6 +1871,54 @@
       "authorId": 10,
       "sourceId": 10,
       "tagIds": [13]
+    },
+    {
+      "id": 235,
+      "body": "These trips were only on week ends, of course, because there was that business about education, which meant I was bespoken five days a week. But from Friday afternoon until Monday morning early, when the Old Man dragged me out of bed before light in order to check my fingernails and cowlick for respectability, I was a might happy boy.",
+      "metadata": "Chapter 5",
+      "authorId": 10,
+      "sourceId": 10,
+      "tagIds": [14]
+    },
+    {
+      "id": 236,
+      "body": "A house belongs to have a roof, and is not supposed to get one for Christmas. When a boy gets a school suit or a new pair of shoes, they aren't a gift. They're a roof on a house.",
+      "metadata": "Chapter 7",
+      "authorId": 10,
+      "sourceId": 10,
+      "tagIds": []
+    },
+    {
+      "id": 237,
+      "body": "\"Well, sir, one thing more. I reckon that there ain't nothing anybody can tell a good dog that the dog don't know better than the man. I reckon it's the dog's business to know his business.\"",
+      "metadata": "Chapter 8",
+      "authorId": 10,
+      "sourceId": 10,
+      "tagIds": []
+    },
+    {
+      "id": 238,
+      "body": "You take a dog and you train him right, and then leave him alone and you got a good dog. The same thing applies to boys. Spoil a dog early, and no amount of hollering will cure him. That also applies to boys. Beat him when he's bad, early, and you don't have to take a stick to him later.",
+      "metadata": "Chapter 8",
+      "authorId": 10,
+      "sourceId": 10,
+      "tagIds": [2, 3]
+    },
+    {
+      "id": 239,
+      "body": "But like I said, she [a boat he built] gave me some quiet adventure that you don't get out of the comic books, because none of it was vicarious, which means, I think, getting your thrills out of what somebody else has already done better.",
+      "metadata": "Chapter 9",
+      "authorId": 10,
+      "sourceId": 10,
+      "tagIds": [14]
+    },
+    {
+      "id": 240,
+      "body": "I went back to school feeling a little more like a man and a little less like a boy. I reckon the Old Man knew what he was talking about when he said there was nothing like a boat to smooth the kinks out of a kid.",
+      "metadata": "Chapter 9",
+      "authorId": 10,
+      "sourceId": 10,
+      "tagIds": [9]
     }
   ]
 }
