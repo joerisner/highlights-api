@@ -1919,6 +1919,78 @@
       "authorId": 10,
       "sourceId": 10,
       "tagIds": [9]
+    },
+    {
+      "id": 241,
+      "body": "The summertime belongs to boys. Grown-up folks might play around at the beaches and the country clubs and take vacations, but summer truly belongs to kids.",
+      "metadata": "Chapter 11",
+      "authorId": 10,
+      "sourceId": 10,
+      "tagIds": [14]
+    },
+    {
+      "id": 242,
+      "body": "It was one of those days when a boy figures he's got to pop if something doesn't happen to him - something big, something adventurous, something stupendous...",
+      "metadata": "Chapter 11",
+      "authorId": 10,
+      "sourceId": 10,
+      "tagIds": [14]
+    },
+    {
+      "id": 243,
+      "body": "\"Tell you what,\" he said. \"A horse is too large an investment for unproven ability. We will just sort of try you out on a goat. Anybody that will look after a goat and cart will be a likely candidate for a pony, because nothing is quite as ornery as a billy goat.\"",
+      "metadata": "Chapter 15",
+      "authorId": 10,
+      "sourceId": 10,
+      "tagIds": [2]
+    },
+    {
+      "id": 244,
+      "body": "\"No man can do everything well. A lot of men spread themselves out, trying this, having a dib and a dab at that, never finishing what they start, and always trying to look for something new when they've failed. A smart man knows when he has a few things he can do well...\"",
+      "metadata": "Chapter 15",
+      "authorId": 10,
+      "sourceId": 10,
+      "tagIds": [9]
+    },
+    {
+      "id": 245,
+      "body": "\"A sportsman,\" he said to nobody, \"is a gentleman first. But a sportsman, basically is a man who kills what he needs, whether it's a fish or a bird or an animal, or what he wants for a special reason, but he never kills anything just to kill it. And he tries to preserve the very same thing that he kills a little bit of from time to time.\"",
+      "metadata": "Chapter 17",
+      "authorId": 10,
+      "sourceId": 10,
+      "tagIds": [13]
+    },
+    {
+      "id": 246,
+      "body": "If they keep exposing you to education, you might even realize someday that man becomes immortal only in what he writes on paper, or hacks into a rock, or slabbers onto a canvas, or pulls out of a piano.",
+      "metadata": "Chapter 17",
+      "authorId": 10,
+      "sourceId": 10,
+      "tagIds": [9]
+    },
+    {
+      "id": 247,
+      "body": "There is a time in the life of every Lilliputian when the gigantic grown-ups around him are very important. This is the time when the boy is not so very far away from being a grown-up himself, and the grown-ups are not so far away from being boys. What I mean to say, a certain politeness is indicated. There is a time when it is very bad to patronize a boy, just because he isn't quite a man yet.",
+      "metadata": "Chapter 17",
+      "authorId": 10,
+      "sourceId": 10,
+      "tagIds": [3, 9]
+    },
+    {
+      "id": 248,
+      "body": "I was surrounded by adults who were sensitive to what small boys needed in the way of companionship. Looking all the way back as far as I can look, I can't remember anybody who ever made me feel as small as I was.",
+      "metadata": "Chapter 17",
+      "authorId": 10,
+      "sourceId": 10,
+      "tagIds": [3, 9]
+    },
+    {
+      "id": 249,
+      "body": "The Old Man said once, \"A boy has got to grow up to be a man some day. You can delay the process, but you can't protect the boy from manhood forever. The best and easiest way is to expose the boy to people who are already men, good and bad, drunk and sober, lazy and industrious. It is really, after all, up to the boy, when all is said and done, and there are a lot of boys who never get to be men, and a lot of men who never quit being boys.\"",
+      "metadata": "Chapter 17",
+      "authorId": 10,
+      "sourceId": 10,
+      "tagIds": [3, 9]
     }
   ]
 }
