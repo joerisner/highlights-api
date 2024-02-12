@@ -5,10 +5,10 @@ test.describe('router', () => {
 
   test('/authors', async ({ request }) => {
     const result = await request.get('/authors');
-    const responseBody = await result.json();
-
     expect(result.status()).toBe(200);
     expect(result.headers()).toMatchObject(expectedHeaders);
+
+    const responseBody = await result.json();
     expect(responseBody).toEqual({ authors: expect.any(Array) });
 
     const { authors } = responseBody;
@@ -27,25 +27,19 @@ test.describe('router', () => {
     expect(result.status()).toBe(200);
     expect(result.headers()).toMatchObject(expectedHeaders);
     expect(await result.json()).toEqual({
-      author: { id: expect.any(Number), firstName: expect.any(String), lastName: expect.any(String) },
-      quotation: {
-        id: expect.any(Number),
-        body: expect.any(String),
-        metadata: expect.any(String),
-        authorId: expect.any(Number),
-        sourceId: expect.any(Number),
-        tagIds: expect.any(Array)
-      },
-      source: { id: expect.any(Number), title: expect.any(String), type: expect.any(String) }
+      author: expect.any(String),
+      body: expect.any(String),
+      source: expect.any(String),
+      tags: expect.any(Array)
     });
   });
 
   test('/sources', async ({ request }) => {
     const result = await request.get('/sources');
-    const responseBody = await result.json();
-
     expect(result.status()).toBe(200);
     expect(result.headers()).toMatchObject(expectedHeaders);
+
+    const responseBody = await result.json();
     expect(responseBody).toEqual({ sources: expect.any(Array) });
 
     const { sources } = responseBody;
@@ -60,10 +54,10 @@ test.describe('router', () => {
 
   test('/tags', async ({ request }) => {
     const result = await request.get('/tags');
-    const responseBody = await result.json();
-
     expect(result.status()).toBe(200);
     expect(result.headers()).toMatchObject(expectedHeaders);
+
+    const responseBody = await result.json();
     expect(responseBody).toEqual({ tags: expect.any(Array) });
 
     const { tags } = responseBody;

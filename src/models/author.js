@@ -1,8 +1,6 @@
-// NOTE: All this is to get around ESLint not being able to parse type assertions
-//  for JSON imports w/ ESM. Replace this later w/ a single-line import.
-import { readFile } from 'node:fs/promises';
-const jsonUrl = new URL('../data/authors.json', import.meta.url);
-const json = JSON.parse(await readFile(jsonUrl, 'utf8'));
+import { loadJson } from '#utils/jsonLoader';
+
+const json = await loadJson('authors');
 
 export const findAuthorById = authorId =>
   new Promise((resolve, reject) => {
@@ -12,4 +10,4 @@ export const findAuthorById = authorId =>
     reject(new Error(`Could not find an author with id ${authorId}`));
   });
 
-export const getAllAuthors = () => new Promise((resolve, _reject) => resolve(json));
+export const findAllAuthors = () => new Promise((resolve, _reject) => resolve(json));
