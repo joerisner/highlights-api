@@ -59,6 +59,30 @@
     {
       "id": 15,
       "name": "Legacy"
+    },
+    {
+      "id": 16,
+      "name": "Sanctification"
+    },
+    {
+      "id": 17,
+      "name": "Holy Spirit"
+    },
+    {
+      "id": 18,
+      "name": "Baptism"
+    },
+    {
+      "id": 19,
+      "name": "Christian Work"
+    },
+    {
+      "id": 20,
+      "name": "Scriptures"
+    },
+    {
+      "id": 21,
+      "name": "Faith"
     }
   ]
 }

@@ -54,6 +54,16 @@
       "id": 11,
       "title": "Family Shepherds",
       "type": "BOOK"
+    },
+    {
+      "id": 12,
+      "title": "In Christ",
+      "type": "BOOK"
+    },
+    {
+      "id": 13,
+      "title": "Striving in Prayer",
+      "type": "BOOK"
     }
   ]
 }

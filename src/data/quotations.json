@@ -1630,7 +1630,7 @@
       "metadata": "Book 4, Chapter 4",
       "authorId": 9,
       "sourceId": 9,
-      "tagIds": []
+      "tagIds": [17]
     },
     {
       "id": 205,
@@ -1742,7 +1742,7 @@
       "metadata": "Chapter 5",
       "authorId": 3,
       "sourceId": 3,
-      "tagIds": [5]
+      "tagIds": [5, 18]
     },
     {
       "id": 219,
@@ -2167,6 +2167,326 @@
       "authorId": 11,
       "sourceId": 11,
       "tagIds": [4]
+    },
+    {
+      "id": 272,
+      "body": "What is holiness? Many people think we become holy by the eradication of something evil within. No, we become holy by being separated unto God. In Old Testament times, it was when a man was chosen by God to be altogether his that he was publicly anointed with oil and was then said to be \"sanctified.\"",
+      "metadata": "Chapter 6",
+      "authorId": 3,
+      "sourceId": 3,
+      "tagIds": [16]
+    },
+    {
+      "id": 273,
+      "body": "When the Galilean boy brought his bread to the Lord, what did the Lord do with it? He broke it. God will always break what is offered to him. He breaks what he takes, but after breaking it he blesses and uses it to meet the needs of others. After you give yourself to the Lord, he begins to break what was offered to him.",
+      "metadata": "Chapter 6",
+      "authorId": 3,
+      "sourceId": 3,
+      "tagIds": []
+    },
+    {
+      "id": 274,
+      "body": "In respect of his divinity the Lord Jesus remains uniquely \"the only begotten Son of God.\"",
+      "metadata": "Chapter 7",
+      "authorId": 3,
+      "sourceId": 3,
+      "tagIds": [17]
+    },
+    {
+      "id": 275,
+      "body": "God is not out to reform our life. It is not his aim to bring that life to a certain stage of refinement for it is on a totally wrong plane. On that plane he cannot now bring man to glory. He must have a new man; one born anew, born of God. Regeneration and justification go together.",
+      "metadata": "Chapter 7",
+      "authorId": 3,
+      "sourceId": 3,
+      "tagIds": [5, 16]
+    },
+    {
+      "id": 276,
+      "body": "Upon what basis, then, was the Spirit first given to the Lord Jesus to be poured out upon his people? It was upon the fact of his exaltation to heaven. This passage [Acts 2:32-36] makes it quite clear that the Holy Spirit was poured out because Jesus was exalted. The outpouring of the Spirit has no relation to your merits or mine, but only to the merits of the Lord Jesus.",
+      "metadata": "Chapter 8",
+      "authorId": 3,
+      "sourceId": 3,
+      "tagIds": [17]
+    },
+    {
+      "id": 277,
+      "body": "Because the Lord Jesus died on the Cross, I have received forgiveness of sins; because the Lord Jesus rose from the dead, I have received new life; because the Lord Jesus has been exalted to the right hand of the Father, I have received the outpoured Spirit. All is because of him; nothing is because of me...The Holy Spirit has not been poured out on you or me to prove how great we are, but to prove the greatness of the Son of God.",
+      "metadata": "Chapter 8",
+      "authorId": 3,
+      "sourceId": 3,
+      "tagIds": [17]
+    },
+    {
+      "id": 278,
+      "body": "Holy Spirit was poured out on earth to prove what had taken place in heaven - the exaltation of Jesus of Nazareth to the right hand of God. The purpose of Pentecost is to prove the Lordship of Jesus Christ.",
+      "metadata": "Chapter 8",
+      "authorId": 3,
+      "sourceId": 3,
+      "tagIds": [17]
+    },
+    {
+      "id": 279,
+      "body": "We must never rest content with objective facts alone. We need subjective experience also; but that experience will only come as we rest upon divine facts. God's facts are the basis of our experience.",
+      "metadata": "Chapter 8",
+      "authorId": 3,
+      "sourceId": 3,
+      "tagIds": []
+    },
+    {
+      "id": 280,
+      "body": "If we lack the experience, we must ask God only for a revelation of this eternal fact, that the baptism of the Holy Spirit is the gift of the exalted Lord to his Church.",
+      "metadata": "Chapter 8",
+      "authorId": 3,
+      "sourceId": 3,
+      "tagIds": [17]
+    },
+    {
+      "id": 281,
+      "body": "Baptism is an outward expression of an inward faith. When in my heart I truly believe that I have died, have been buried and have risen with Christ, then I ask for baptism. Thereby I declare publicly what I believe privately. Baptism is faith in action.",
+      "metadata": "Chapter 8",
+      "authorId": 3,
+      "sourceId": 3,
+      "tagIds": [18, 21]
+    },
+    {
+      "id": 282,
+      "body": "There is nothing stereotyped about God's dealings with his children. Therefore we must not, by our prejudices and preconceptions, make water-tight compartments for the working of his Spirit, either in our own lives or in the lives of others.",
+      "metadata": "Chapter 8",
+      "authorId": 3,
+      "sourceId": 3,
+      "tagIds": [17]
+    },
+    {
+      "id": 283,
+      "body": "...if we are to know in experience that which is ours in fact, our first need is of divine revelation.",
+      "metadata": "Chapter 8",
+      "authorId": 3,
+      "sourceId": 3,
+      "tagIds": []
+    },
+    {
+      "id": 284,
+      "body": "True revelation of the fact of the Spirit's indwelling will revolutionize the life of any Christian.",
+      "metadata": "Chapter 8",
+      "authorId": 3,
+      "sourceId": 3,
+      "tagIds": [17]
+    },
+    {
+      "id": 285,
+      "body": "Consecration will follow revelation. The difference between victorious Christians and defeated ones is not that some have the Spirit while others have not, but that some know his indwelling and others do not...Revelation is the first step to holiness, and consecration is the second.",
+      "metadata": "Chapter 8",
+      "authorId": 3,
+      "sourceId": 3,
+      "tagIds": [16]
+    },
+    {
+      "id": 286,
+      "body": "What, then is the meaning of Law? Grace means that God does something for me; law means that I do something for God. God has certain holy and righteous demands which he places upon me: that is law.",
+      "metadata": "Chapter 9",
+      "authorId": 3,
+      "sourceId": 3,
+      "tagIds": [6]
+    },
+    {
+      "id": 287,
+      "body": "Law implies that God requires me to do something for him; deliverance from law implies that he exempts me from doing it, and that in grace he does it himself.",
+      "metadata": "Chapter 9",
+      "authorId": 3,
+      "sourceId": 3,
+      "tagIds": [6]
+    },
+    {
+      "id": 288,
+      "body": "...let it be settled that fault does not lie with the Law. Paul says, \"the law is holy, and the commandment holy, and righteous, and good\" (Rom. 7:12). No, there is nothing wrong with the Law, but there is something decidedly wrong with me.",
+      "metadata": "Chapter 9",
+      "authorId": 3,
+      "sourceId": 3,
+      "tagIds": [6]
+    },
+    {
+      "id": 289,
+      "body": "God must bring us all to the place where we see that we are utterly weak and helpless. While we say so, we do not wholly believe it, and God has to do something to convince us of the fact. Had it not been for the Law, we should never have known how weak we are.",
+      "metadata": "Chapter 9",
+      "authorId": 3,
+      "sourceId": 3,
+      "tagIds": [6]
+    },
+    {
+      "id": 290,
+      "body": "The more we try to keep the Law the more our weakness is manifest and the deeper we get into Romans 7, until it is clearly demonstrated to us that we are hopelessly weak.",
+      "metadata": "Chapter 9",
+      "authorId": 3,
+      "sourceId": 3,
+      "tagIds": [6]
+    },
+    {
+      "id": 291,
+      "body": "The law makes demands and leaves us helpless to fulfill them; Christ makes demands, but he himself fulfills in us the very demands he makes.",
+      "metadata": "Chapter 9",
+      "authorId": 3,
+      "sourceId": 3,
+      "tagIds": [6]
+    },
+    {
+      "id": 292,
+      "body": "The \"wretched man\" of Romans 7 tried to meet the claims of God's law himself, and that was the cause of his trouble. The repeated use of the little word \"I\" in this chapter gives the clue to the failure.",
+      "metadata": "Chapter 9",
+      "authorId": 3,
+      "sourceId": 3,
+      "tagIds": [6]
+    },
+    {
+      "id": 293,
+      "body": "Have you despaired of yourself, or do you hope that if you read and pray more you will be a better Christian? Bible-reading and prayer are not wrong, and God forbid that we should suggest that they are, but it is wrong to trust even in them for victory. Our help is in him who is the object of that reading and prayer. Our trust must be in Christ alone.",
+      "metadata": "Chapter 9",
+      "authorId": 3,
+      "sourceId": 3,
+      "tagIds": [6, 16]
+    },
+    {
+      "id": 294,
+      "body": "In the matter of forgiveness we look to Christ on the Cross; in the matter of deliverance from sin and of doing the will of God we look to Christ in our hearts.",
+      "metadata": "Chapter 9",
+      "authorId": 3,
+      "sourceId": 3,
+      "tagIds": [5]
+    },
+    {
+      "id": 295,
+      "body": "In the whole range of Christian dogma there is nothing more expensive, and yet nothing less understood and appreciated [as the phrase \"In Him.\"]",
+      "metadata": "Chapter 1",
+      "authorId": 12,
+      "sourceId": 12,
+      "tagIds": []
+    },
+    {
+      "id": 296,
+      "body": "...no man can live the Christian life; there is only One Who can live that life, and that is Christ Himself.",
+      "metadata": "Chapter 1",
+      "authorId": 12,
+      "sourceId": 12,
+      "tagIds": [16]
+    },
+    {
+      "id": 297,
+      "body": "The members of His Body stand in relation to Christ just as our physical bodies stand in relation to our own selves - the means of manifestation, expression, and transaction.",
+      "metadata": "Chapter 1",
+      "authorId": 12,
+      "sourceId": 12,
+      "tagIds": [19]
+    },
+    {
+      "id": 298,
+      "body": "The danger of much evangelistic work, spiritual teaching, and missionary propaganda is in its tendency to stir the emotions and offer spiritual prizes, instead of bringing the imperative note of Christ and the apostles.",
+      "metadata": "Chapter 1",
+      "authorId": 12,
+      "sourceId": 12,
+      "tagIds": [19]
+    },
+    {
+      "id": 299,
+      "body": "In the long run \"the flesh profiteth nothing,\" though it may seem to get results. It is not what is done for God, but what is done by God that will last.",
+      "metadata": "Chapter 1",
+      "authorId": 12,
+      "sourceId": 12,
+      "tagIds": [19]
+    },
+    {
+      "id": 300,
+      "body": "Abraham, in order to come within the terms and fruitfulness of an eternal covenant, must be a man of the Spirit, a spiritual man, and this on a basis of faith.",
+      "metadata": "Chapter 2",
+      "authorId": 12,
+      "sourceId": 12,
+      "tagIds": [21]
+    },
+    {
+      "id": 301,
+      "body": "Forty years earlier, Moses, with a conception of Divine service, had attempted it with carnal means and in his own natural life. This had brought the inevitable failure and arrest. For a further forty years the principle of death had to be applied, until the only honest expression in relation to spiritual service was \"I cannot.\"",
+      "metadata": "Chapter 2",
+      "authorId": 12,
+      "sourceId": 12,
+      "tagIds": [16, 19]
+    },
+    {
+      "id": 302,
+      "body": "Calvary precedes Pentecost in history and in experience. A true revelation of the worthlessness of the natural man in God's sight has always been a necessary prelude to anointing for service.",
+      "metadata": "Chapter 2",
+      "authorId": 12,
+      "sourceId": 12,
+      "tagIds": [5, 16, 19]
+    },
+    {
+      "id": 303,
+      "body": "The whole course of true spiritual experience is for the increase and development of that [eternal] life, and this particularly takes place, as we have seen, through crises and cycles of death and resurrection.",
+      "metadata": "Chapter 3",
+      "authorId": 12,
+      "sourceId": 12,
+      "tagIds": [5, 16]
+    },
+    {
+      "id": 304,
+      "body": "The more spiritual a believer becomes, the more he will realize his dependence upon the life of God for all things. This will be true physically as in every other way.",
+      "metadata": "Chapter 3",
+      "authorId": 12,
+      "sourceId": 12,
+      "tagIds": [6, 16]
+    },
+    {
+      "id": 305,
+      "body": "The natural life is no longer a criterion; whether it be strong or weak it matters not. Its strength does not mean effectiveness in spiritual things, whether that strength be intellectual, moral, circumstantial, social, physical. Its weakness does not carry a handicap. We are called to live and serve only in His life, and it is the only efficiency, but the sure one.",
+      "metadata": "Chapter 3",
+      "authorId": 12,
+      "sourceId": 12,
+      "tagIds": [19]
+    },
+    {
+      "id": 306,
+      "body": "What is true of the Head must be true of the members. What is true of the Vine must be true of the branches. What is true of the Last Adam must be true of every member of His race.",
+      "metadata": "Chapter 3",
+      "authorId": 12,
+      "sourceId": 12,
+      "tagIds": [16, 19]
+    },
+    {
+      "id": 307,
+      "body": "We must come into every Divine thing as out from above, and not from the earth level.",
+      "metadata": "Chapter 4",
+      "authorId": 12,
+      "sourceId": 12,
+      "tagIds": []
+    },
+    {
+      "id": 308,
+      "body": "It is one thing to take even the Bible as a manual or textbook - a system of truth, teaching, practice, and order; it is quite another thing to see the eternal, spiritual principles behind the precepts, practices, and system.",
+      "metadata": "Chapter 3",
+      "authorId": 12,
+      "sourceId": 12,
+      "tagIds": [20]
+    },
+    {
+      "id": 309,
+      "body": "The Church is a heavenly body, not an earthly society, institution, organization. The ecclesiastical systems of this world which call themselves \"the Church\" and \"the churches\" are too often a grotesque caricature. Only one Church exists in the mind and interest of God...",
+      "metadata": "Chapter 4",
+      "authorId": 12,
+      "sourceId": 12,
+      "tagIds": []
+    },
+    {
+      "id": 310,
+      "body": "Faith always brings us into precarious and difficult situations. Faith always demands a letting go of things seen and temporal. Faith threatens, and carries out its threat, to bewilder and confound our natural judgments, wisdom, acumen, hope, confidence, and security. Faith never fails to cut the ties of our natural safety, and dry up the springs of our human resource.",
+      "metadata": "Chapter 4",
+      "authorId": 12,
+      "sourceId": 12,
+      "tagIds": [21]
+    },
+    {
+      "id": 311,
+      "body": "I do not believe people do grow, however much information they accumulate along spiritual lines, if they are all the time turned in on themselves. Responsibility is a tremendous thing for enlargement.",
+      "metadata": "",
+      "authorId": 12,
+      "sourceId": 13,
+      "tagIds": [11, 19]
     }
   ]
 }
