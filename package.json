@@ -20,7 +20,7 @@
     "test:unit": "node --test --test-reporter=spec test/unit/"
   },
   "dependencies": {
-    "dotenv": "^16.4.1",
+    "dotenv": "^16.4.4",
     "express": "^4.18.2"
   },
   "devDependencies": {
