@@ -83,6 +83,14 @@
     {
       "id": 21,
       "name": "Faith"
+    },
+    {
+      "id": 22,
+      "name": "Sonship"
+    },
+    {
+      "id": 23,
+      "name": "Gospel"
     }
   ]
 }
