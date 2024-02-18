@@ -310,7 +310,7 @@
       "metadata": "Chapter 1",
       "authorId": 3,
       "sourceId": 3,
-      "tagIds": [5]
+      "tagIds": [23]
     },
     {
       "id": 40,
@@ -334,7 +334,7 @@
       "metadata": "Chapter 1",
       "authorId": 3,
       "sourceId": 3,
-      "tagIds": [6]
+      "tagIds": [6, 23]
     },
     {
       "id": 43,
@@ -342,7 +342,7 @@
       "metadata": "Chapter 2",
       "authorId": 3,
       "sourceId": 3,
-      "tagIds": [5]
+      "tagIds": [23]
     },
     {
       "id": 44,
@@ -350,7 +350,7 @@
       "metadata": "Chapter 2",
       "authorId": 3,
       "sourceId": 3,
-      "tagIds": [5, 7]
+      "tagIds": [5, 7, 23]
     },
     {
       "id": 45,
@@ -358,7 +358,7 @@
       "metadata": "Chapter 2",
       "authorId": 3,
       "sourceId": 3,
-      "tagIds": [5, 7]
+      "tagIds": [5, 23]
     },
     {
       "id": 46,
@@ -366,7 +366,7 @@
       "metadata": "Chapter 3",
       "authorId": 3,
       "sourceId": 3,
-      "tagIds": [6]
+      "tagIds": [6, 23]
     },
     {
       "id": 47,
@@ -374,7 +374,7 @@
       "metadata": "Chapter 3",
       "authorId": 3,
       "sourceId": 3,
-      "tagIds": [5]
+      "tagIds": [23]
     },
     {
       "id": 48,
@@ -382,7 +382,7 @@
       "metadata": "Chapter 4",
       "authorId": 3,
       "sourceId": 3,
-      "tagIds": [5]
+      "tagIds": [5, 23]
     },
     {
       "id": 49,
@@ -390,7 +390,7 @@
       "metadata": "Chapter 4",
       "authorId": 3,
       "sourceId": 3,
-      "tagIds": [5]
+      "tagIds": [5, 23]
     },
     {
       "id": 50,
@@ -1678,7 +1678,7 @@
       "metadata": "Chapter 3",
       "authorId": 3,
       "sourceId": 3,
-      "tagIds": [5]
+      "tagIds": [5, 23]
     },
     {
       "id": 211,
@@ -1686,7 +1686,7 @@
       "metadata": "Chapter 4",
       "authorId": 3,
       "sourceId": 3,
-      "tagIds": [5]
+      "tagIds": [5, 23]
     },
     {
       "id": 212,
@@ -1694,7 +1694,7 @@
       "metadata": "Chapter 4",
       "authorId": 3,
       "sourceId": 3,
-      "tagIds": []
+      "tagIds": [23]
     },
     {
       "id": 213,
@@ -1702,7 +1702,7 @@
       "metadata": "Chapter 4",
       "authorId": 3,
       "sourceId": 3,
-      "tagIds": [5]
+      "tagIds": [23]
     },
     {
       "id": 214,
@@ -1710,7 +1710,7 @@
       "metadata": "Chapter 4",
       "authorId": 3,
       "sourceId": 3,
-      "tagIds": [5]
+      "tagIds": [23]
     },
     {
       "id": 215,
@@ -1722,11 +1722,11 @@
     },
     {
       "id": 216,
-      "body": "The Cross was the means God used to bring to an end \"the old things\" by setting aside altogether our \"old man,\" and the resurrection was the means he employed to impart to us all that was necessary for our life in that new world.",
+      "body": "The Cross was the means God used to bring to an end to \"the old things\" by setting aside altogether our \"old man,\" and the resurrection was the means he employed to impart to us all that was necessary for our life in that new world.",
       "metadata": "Chapter 5",
       "authorId": 3,
       "sourceId": 3,
-      "tagIds": [5]
+      "tagIds": [5, 23]
     },
     {
       "id": 217,
@@ -1734,7 +1734,7 @@
       "metadata": "Chapter 5",
       "authorId": 3,
       "sourceId": 3,
-      "tagIds": []
+      "tagIds": [18]
     },
     {
       "id": 218,
@@ -1750,7 +1750,7 @@
       "metadata": "Chapter 5",
       "authorId": 3,
       "sourceId": 3,
-      "tagIds": [5]
+      "tagIds": [5, 23]
     },
     {
       "id": 220,
@@ -2214,7 +2214,7 @@
       "metadata": "Chapter 8",
       "authorId": 3,
       "sourceId": 3,
-      "tagIds": [17]
+      "tagIds": [17, 23]
     },
     {
       "id": 278,
@@ -2294,7 +2294,7 @@
       "metadata": "Chapter 9",
       "authorId": 3,
       "sourceId": 3,
-      "tagIds": [6]
+      "tagIds": [6, 23]
     },
     {
       "id": 288,
@@ -2326,7 +2326,7 @@
       "metadata": "Chapter 9",
       "authorId": 3,
       "sourceId": 3,
-      "tagIds": [6]
+      "tagIds": [6, 23]
     },
     {
       "id": 292,
@@ -2342,7 +2342,7 @@
       "metadata": "Chapter 9",
       "authorId": 3,
       "sourceId": 3,
-      "tagIds": [6, 16]
+      "tagIds": [6, 16, 23]
     },
     {
       "id": 294,
@@ -2350,7 +2350,7 @@
       "metadata": "Chapter 9",
       "authorId": 3,
       "sourceId": 3,
-      "tagIds": [5]
+      "tagIds": [23]
     },
     {
       "id": 295,
@@ -2487,6 +2487,238 @@
       "authorId": 12,
       "sourceId": 13,
       "tagIds": [11, 19]
+    },
+    {
+      "id": 312,
+      "body": "To live in the flesh is to do something \"out from\" myself as in Adam. It is to derive strength from the old natural source of life that I inherited from him, so that I enjoy in experience all Adam's very complete provision for sinning which all of us have found so effective.",
+      "metadata": "Chapter 10",
+      "authorId": 3,
+      "sourceId": 3,
+      "tagIds": [5, 19]
+    },
+    {
+      "id": 313,
+      "body": "Living in the Spirit means that I trust the Holy Spirit to do in me what I cannot do myself. This life is completely different from the life I would naturally live of myself...It is not a case of trying but of trusting; not of struggling but of resting in Him.",
+      "metadata": "Chapter 10",
+      "authorId": 3,
+      "sourceId": 3,
+      "tagIds": [17, 19, 21]
+    },
+    {
+      "id": 314,
+      "body": "The Cross has been given to procure salvation for us; the Spirit has been given to produce salvation in us. Christ risen and ascended is the basis of our salvation; Christ in our hearts by the Spirit is its power.",
+      "metadata": "Chapter 10",
+      "authorId": 3,
+      "sourceId": 3,
+      "tagIds": [17, 23]
+    },
+    {
+      "id": 315,
+      "body": "We think of the Christian life as a \"changed life\" but it is not that. What God offers us is an \"exchanged life,\" a \"substituted life,\" and Christ is our Substitute within.",
+      "metadata": "Chapter 10",
+      "authorId": 3,
+      "sourceId": 3,
+      "tagIds": [5, 6, 23]
+    },
+    {
+      "id": 316,
+      "body": "In other words, it is a new revelation of what we already have. I feel I cannot emphasize this too much. It is not something fresh from God's hand, but a new unveiling of what he has already given. It is a new discovery of a work already done in Christ...",
+      "metadata": "Chapter 10",
+      "authorId": 3,
+      "sourceId": 3,
+      "tagIds": [6]
+    },
+    {
+      "id": 317,
+      "body": "Should we not read the Bible? Of course we should or our spiritual life will suffer. But that should not mean forcing ourselves to read. There is a new law in us which gives us a hunger for God's Word. Then half an hour can be more profitable than five hours of forced reading.",
+      "metadata": "Chapter 10",
+      "authorId": 3,
+      "sourceId": 3,
+      "tagIds": [5, 19, 20]
+    },
+    {
+      "id": 318,
+      "body": "Yes, let us be fully assured that the will is useless here. For me to exhort you to exercise your will in this matter would be but to offer you the vain religion of the world, not the life in Christ Jesus.",
+      "metadata": "Chapter 10",
+      "authorId": 3,
+      "sourceId": 3,
+      "tagIds": [19]
+    },
+    {
+      "id": 319,
+      "body": "There is too much hypocrisy in the lives of Christians, too much play-acting. Nothing takes away from the effectiveness of Christian witness as does a pretense of something that is not really there...",
+      "metadata": "Chapter 10",
+      "authorId": 3,
+      "sourceId": 3,
+      "tagIds": [19]
+    },
+    {
+      "id": 320,
+      "body": "What does it mean to walk after the Spirit? It means two things. First, it is not a work; it is a walk. That is why Paul contrasts the \"works\" of the flesh with the \"fruit\" of the Spirit (Gal. 5:19, 22). Then second, to \"walk after\" implies subjection. To walk after the Spirit is to be subject to the Spirit. There is one thing that the man who walks after the Spirit cannot do, and that is be independent of him.",
+      "metadata": "Chapter 10",
+      "authorId": 3,
+      "sourceId": 3,
+      "tagIds": [17, 19]
+    },
+    {
+      "id": 321,
+      "body": "What the Father has devised concerning us the Son has accomplished for us, and now the Holy Spirit communicates it to us.",
+      "metadata": "Chapter 10",
+      "authorId": 3,
+      "sourceId": 3,
+      "tagIds": [17]
+    },
+    {
+      "id": 322,
+      "body": "But it is clear that the new discoveries that we make as we walk with the Lord are many, and we must be careful to avoid the temptation to over-simplify the work of God. To do so may lead us into serious confusion.",
+      "metadata": "Chapter 11",
+      "authorId": 3,
+      "sourceId": 3,
+      "tagIds": [23]
+    },
+    {
+      "id": 323,
+      "body": "As we have seen, this [revelation] always precedes faith and experience. Through his Word God opens our eyes to the truth of some fact concerning his Son, and then only, as in faith we accept that fact for ourselves, does it become actual experience in our lives. Thus we have: 1. Revelation (Objective). 2. Experience (Subjective).",
+      "metadata": "Chapter 11",
+      "authorId": 3,
+      "sourceId": 3,
+      "tagIds": [20, 21]
+    },
+    {
+      "id": 324,
+      "body": "We must note that Eve was not created as a separate entity by a separate creation, parallel to that of Adam. Adam slept, and Eve was created out of Adam. That is God's method with the Church. God's \"second Man\" has awakened from his \"sleep\" and his Church is created in him and of him, to draw her life from him and to display that resurrection life.",
+      "metadata": "Chapter 11",
+      "authorId": 3,
+      "sourceId": 3,
+      "tagIds": []
+    },
+    {
+      "id": 325,
+      "body": "God's goal in man was \"sonship,\" or, in other words, the expression of his life in human sons.",
+      "metadata": "Chapter 12",
+      "authorId": 3,
+      "sourceId": 3,
+      "tagIds": [22]
+    },
+    {
+      "id": 326,
+      "body": "\"We which live are alway delivered unto death for Jesus' sake, that the life also of Jesus may be manifested in our mortal flesh\" (2 Cor. 4:11). What does this mean? It simply means that I will not take any action without relying on God. I will find no sufficiency in myself. I will not take any step just because I have the power to do so.",
+      "metadata": "Chapter 12",
+      "authorId": 3,
+      "sourceId": 3,
+      "tagIds": [19]
+    },
+    {
+      "id": 327,
+      "body": "We forget that, in the matter of our resource for handling the things of God, it is a question not of comparative value but of origin - of where the resource springs from.",
+      "metadata": "Chapter 12",
+      "authorId": 3,
+      "sourceId": 3,
+      "tagIds": [5, 19]
+    },
+    {
+      "id": 328,
+      "body": "Do you see the difference between natural and spiritual gifts? Anything we can do without prayer and without an utter dependence upon God must come from the spring of natural life that is tainted with the flesh. We must see this clearly.",
+      "metadata": "Chapter 12",
+      "authorId": 3,
+      "sourceId": 3,
+      "tagIds": [3, 4, 11, 16, 19]
+    },
+    {
+      "id": 329,
+      "body": "All too readily do we envy our neighbor who has some outstanding natural gift, and fail to realize that our own possession of it, apart from such a working of the Cross, could prove a barrier to the very thing that God is seeking to manifest in us.",
+      "metadata": "Chapter 12",
+      "authorId": 3,
+      "sourceId": 3,
+      "tagIds": [19]
+    },
+    {
+      "id": 330,
+      "body": "The whole subtle object of Satan was to get the Lord to act for himself - that is, from the soul - and, by the stand he took, Jesus absolutely repudiated such action.",
+      "metadata": "Chapter 13",
+      "authorId": 3,
+      "sourceId": 3,
+      "tagIds": [19]
+    },
+    {
+      "id": 331,
+      "body": "The soul is the seat of the affections, and what a great part of our decision and actions is influenced by these!",
+      "metadata": "Chapter 13",
+      "authorId": 3,
+      "sourceId": 3,
+      "tagIds": [12]
+    },
+    {
+      "id": 332,
+      "body": "\"Do you like the will of God?\" It is a tremendous question.",
+      "metadata": "Chapter 13",
+      "authorId": 3,
+      "sourceId": 3,
+      "tagIds": [12]
+    },
+    {
+      "id": 333,
+      "body": "Many a time we have to come to the place where we are willing to let go to him things we think to be good and precious - yes, and even, it may be, the very things of God themselves - that his will may be done.",
+      "metadata": "Chapter 13",
+      "authorId": 3,
+      "sourceId": 3,
+      "tagIds": [16]
+    },
+    {
+      "id": 334,
+      "body": "God must bring us to a point - I cannot tell you how it will be, but he will do it - where, through a deep and dark experience, our natural power is touched and fundamentally weakened, so that we no longer dare trust ourselves.",
+      "metadata": "Chapter 13",
+      "authorId": 3,
+      "sourceId": 3,
+      "tagIds": [16, 19]
+    },
+    {
+      "id": 335,
+      "body": "What, then, is the secret? Clearly it is this, that in approving Mary's action at Bethany, the Lord Jesus was laying down one thing as a basis of all service: that you pour out all you have, your very self, unto him; and if that should be all he allows you to do, that is enough.",
+      "metadata": "Chapter 14",
+      "authorId": 3,
+      "sourceId": 3,
+      "tagIds": [12, 19]
+    },
+    {
+      "id": 336,
+      "body": "The Gospel is not just to satisfy sinners. Praise the Lord, sinners will be satisfied! But their satisfaction is, we may say, a blessed by-product of the Gospel and not its primary aim. The Gospel is preached in the first place so that the Lord may be satisfied.",
+      "metadata": "Chapter 14",
+      "authorId": 3,
+      "sourceId": 3,
+      "tagIds": [23]
+    },
+    {
+      "id": 337,
+      "body": "True satisfaction is brought to the heart of God when we are really, as people would think, \"wasting\" ourselves upon him. It seems as though we are giving too much and getting nothing - and that is the secret of pleasing God.",
+      "metadata": "Chapter 14",
+      "authorId": 3,
+      "sourceId": 3,
+      "tagIds": [12]
+    },
+    {
+      "id": 338,
+      "body": "The idea of waste only comes into our Christianity when we underestimate the worth of our Lord. The whole question is: How precious is he to us now? If we do not think much of him, then of course to give him anything at all, however small, will seem to us a wicked waste. But when he is really precious to our souls, nothing will be too good, nothing too costly for him...",
+      "metadata": "Chapter 14",
+      "authorId": 3,
+      "sourceId": 3,
+      "tagIds": [12]
+    },
+    {
+      "id": 339,
+      "body": "God does not set us here first of all to preach or to do work for him. The first thing for which he sets us here is to create in others a hunger for himself. That is, after all, what prepares the soil for the preaching.",
+      "metadata": "Chapter 14",
+      "authorId": 3,
+      "sourceId": 3,
+      "tagIds": [19]
+    },
+    {
+      "id": 340,
+      "body": "The Gospel has as its one object the producing in us sinners of a condition that will satisfy the heart of our God.",
+      "metadata": "Chapter 14",
+      "authorId": 3,
+      "sourceId": 3,
+      "tagIds": [23]
     }
   ]
 }
