@@ -19,7 +19,7 @@ touch .env
 Run the following command to install dependencies and start the application on the port defined in your `.env` file.
 
 ```sh
-make start
+make
 ```
 
 Use your REST client of choice for making requests (curl, Postman, Thunder Client, etc.)

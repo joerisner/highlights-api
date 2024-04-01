@@ -1,3 +1,5 @@
+.DEFAULT_GOAL=start
+
 build: ## Install dependencies and build the application
 	@printf "\033[32;1mInstalling dependencies...\033[0m\n"
 	npm install
