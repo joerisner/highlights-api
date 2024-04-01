@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+DIRS=(./test/api/report ./test/api/test-results)
+
+for DIR in "${DIRS[@]}"; do
+  if [[ -d $DIR ]]; then
+    rm -rf "$DIR"
+    printf "Removed directory: \033[31;1m$DIR\033[0m\n"
+  fi
+done
