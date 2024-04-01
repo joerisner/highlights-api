@@ -15,7 +15,7 @@ export default defineConfig({
     trace: 'retain-on-failure'
   },
   webServer: {
-    command: 'npm start',
+    command: 'node ./src/index.js',
     port: process.env.PORT,
     reuseExistingServer: !process.env.CI,
     timeout: 12000
