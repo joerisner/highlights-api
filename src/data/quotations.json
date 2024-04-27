@@ -2991,6 +2991,30 @@
       "authorId": 11,
       "sourceId": 11,
       "tagIds": [3, 11, 19]
+    },
+    {
+      "id": 375,
+      "body": "Every serious Christian is concerned, that he may be serviceable in the world.",
+      "metadata": "Chapter 1",
+      "authorId": 13,
+      "sourceId": 14,
+      "tagIds": [19]
+    },
+    {
+      "id": 376,
+      "body": "Parents, if you don't first become yourselves pious, you will do nothing to purpose to make your children so.",
+      "metadata": "Chapter 2",
+      "authorId": 13,
+      "sourceId": 14,
+      "tagIds": [2, 11]
+    },
+    {
+      "id": 377,
+      "body": "Except you do yourselves walk in the way of the Lord, you will be very careless about bringing your children to such a walk.",
+      "metadata": "Chapter 2",
+      "authorId": 13,
+      "sourceId": 14,
+      "tagIds": [2, 11]
     }
   ]
 }

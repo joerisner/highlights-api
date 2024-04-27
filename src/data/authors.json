@@ -59,6 +59,11 @@
       "id": 12,
       "firstName": "T. Austin",
       "lastName": "Sparks"
+    },
+    {
+      "id": 13,
+      "firstName": "Cotton",
+      "lastName": "Mather"
     }
   ]
 }
