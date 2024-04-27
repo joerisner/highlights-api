@@ -69,6 +69,11 @@
       "id": 14,
       "title": "A Family Well Ordered",
       "type": "BOOK"
+    },
+    {
+      "id": 15,
+      "title": "Sketches of Jewish Social Life in the Days of Christ",
+      "type": "BOOK"
     }
   ]
 }
