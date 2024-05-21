@@ -4,7 +4,7 @@ const { quotations } = await loadJson('quotations');
 
 export const findQuotationById = quotationId =>
   new Promise((resolve, reject) => {
-    const result = quotations.find(quotation => quotation.id === quotationId);
+    const result = quotations.find(quotation => quotation.id == quotationId);
 
     if (result) resolve(result);
     reject(new Error(`Could not find a quotation with id ${quotationId}`));
@@ -12,7 +12,7 @@ export const findQuotationById = quotationId =>
 
 export const findQuotationsByAuthorId = authorId =>
   new Promise((resolve, reject) => {
-    const results = quotations.filter(quotation => quotation.authorId === authorId);
+    const results = quotations.filter(quotation => quotation.authorId == authorId);
 
     if (results.length) resolve(results);
     reject(new Error(`Could not find any quotations for Author ID ${authorId}`));
@@ -20,7 +20,7 @@ export const findQuotationsByAuthorId = authorId =>
 
 export const findQuotationsBySourceId = sourceId =>
   new Promise((resolve, reject) => {
-    const results = quotations.filter(quotation => quotation.sourceId === sourceId);
+    const results = quotations.filter(quotation => quotation.sourceId == sourceId);
 
     if (results.length) resolve(results);
     reject(new Error(`Could not find any quotations for Source ID ${sourceId}`));
