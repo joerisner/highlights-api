@@ -10,28 +10,18 @@ export const findQuotationById = quotationId =>
     reject(new Error(`Could not find a quotation with id ${quotationId}`));
   });
 
-export const findQuotationsByAuthorId = authorId =>
-  new Promise((resolve, reject) => {
-    const results = quotations.filter(quotation => quotation.authorId == authorId);
+export const findQuotations = (opts = null) => {
+  if (opts === null) return new Promise(resolve => resolve(quotations));
+  if (typeof opts !== 'object') return new Promise(reject => reject(new Error('Pass an object to findQuotations')));
+
+  return new Promise((resolve, reject) => {
+    const { authorId, sourceId, tagId } = opts;
+    const results = quotations.filter(
+      quotation =>
+        quotation.authorId === authorId || quotation.sourceId === sourceId || quotation.tagIds.includes(tagId)
+    );
 
     if (results.length) resolve(results);
-    reject(new Error(`Could not find any quotations for Author ID ${authorId}`));
+    reject(new Error('No quotations found'));
   });
-
-export const findQuotationsBySourceId = sourceId =>
-  new Promise((resolve, reject) => {
-    const results = quotations.filter(quotation => quotation.sourceId == sourceId);
-
-    if (results.length) resolve(results);
-    reject(new Error(`Could not find any quotations for Source ID ${sourceId}`));
-  });
-
-export const findQuotationsByTagId = tagId =>
-  new Promise((resolve, reject) => {
-    const results = quotations.filter(quotation => quotation.tagIds.includes(tagId));
-
-    if (results.length) resolve(results);
-    reject(new Error(`Could not find any quotations for Tag ID ${tagId}`));
-  });
-
-export const findAllQuotations = () => new Promise((resolve, _reject) => resolve(quotations));
+};
