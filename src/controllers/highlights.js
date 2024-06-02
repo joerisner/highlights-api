@@ -4,21 +4,26 @@ import { findSourceById } from '#models/source';
 import { listTagNamesFromIds } from '#utils/models/tag';
 import { handle404 } from '../errorHandler.js';
 
+const generateHighlight = async quotation => {
+  const { body, authorId, sourceId, tagIds } = quotation;
+  const { firstName, lastName } = await findAuthorById(authorId);
+  const { title } = await findSourceById(sourceId);
+  const tags = await listTagNamesFromIds(tagIds);
+
+  return {
+    author: `${firstName} ${lastName}`,
+    body,
+    source: title,
+    tags
+  };
+};
+
 export const getRandomHighlight = async (_req, res, next) => {
   try {
     const allQuotations = await findQuotations();
     const randomId = Math.floor(Math.random() * allQuotations.length + 1);
-    const { body, authorId, sourceId, tagIds } = await findQuotationById(randomId);
-    const { firstName, lastName } = await findAuthorById(authorId);
-    const { title } = await findSourceById(sourceId);
-    const tags = await listTagNamesFromIds(tagIds);
-
-    const highlight = {
-      author: `${firstName} ${lastName}`,
-      body,
-      source: title,
-      tags
-    };
+    const quotation = await findQuotationById(randomId);
+    const highlight = await generateHighlight(quotation);
 
     res.status(200).setHeader('Access-Control-Allow-Origin', '*').json(highlight);
   } catch (err) {
@@ -48,7 +53,9 @@ export const getHighlights = async (req, res, next) => {
     }
 
     const quotations = await findQuotations(queryFilter);
-    res.status(200).setHeader('Access-Control-Allow-Origin', '*').json(quotations);
+    const highlights = await Promise.all(quotations.map(quotation => generateHighlight(quotation)));
+
+    res.status(200).setHeader('Access-Control-Allow-Origin', '*').json(highlights);
   } catch (err) {
     if (err.message === 'No quotations found') {
       handle404(req, res, next);

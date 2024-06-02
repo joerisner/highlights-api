@@ -1,12 +1,6 @@
 import { test, describe } from 'node:test';
 import assert from 'node:assert/strict';
-import {
-  findQuotationById,
-  findQuotationsByAuthorId,
-  findQuotationsBySourceId,
-  findQuotationsByTagId,
-  findAllQuotations
-} from '#models/quotation';
+import { findQuotationById, findQuotations } from '#models/quotation';
 
 describe('findQuotationById()', () => {
   test('resolves promise when quotation is found', () => {
@@ -29,58 +23,46 @@ describe('findQuotationById()', () => {
   });
 });
 
-describe('findQuotationsByAuthorId()', () => {
-  test('resolves promise when quotations are found', () => {
-    assert.doesNotReject(findQuotationsByAuthorId(1));
-  });
-
-  test('rejects promise when quotations are not found', () => {
-    assert.rejects(findQuotationsByAuthorId(0), { message: 'Could not find any quotations for Author ID 0' });
-  });
-
+describe('findQuotations()', () => {
   test('returns quotations array', async () => {
-    const results = await findQuotationsByAuthorId(1);
+    const results = await findQuotations();
     assert.equal(Array.isArray(results), true);
     results.forEach(result => assert.equal(typeof result, 'object'));
   });
-});
 
-describe('findQuotationsBySourceId()', () => {
-  test('resolves promise when quotations are found', () => {
-    assert.doesNotReject(findQuotationsBySourceId(1));
+  test('returns all quotatons when opts is null', async () => {
+    const results = await findQuotations();
+    assert.equal(results.length, results.at(-1).id);
   });
 
-  test('rejects promise when quotations are not found', () => {
-    assert.rejects(findQuotationsBySourceId(0), { message: 'Could not find any quotations for Source ID 0' });
+  test('rejects promise when opts is not an object', () => {
+    ['str', true, 1, () => {}].forEach(i => {
+      assert.rejects(findQuotations(i), { message: 'Pass an object to findQuotations' });
+    });
   });
 
-  test('returns quotations array', async () => {
-    const results = await findQuotationsBySourceId(1);
-    assert.equal(Array.isArray(results), true);
-    results.forEach(result => assert.equal(typeof result, 'object'));
-  });
-});
+  test('returns quotations by authorId', async () => {
+    const authorId = 2;
+    const results = await findQuotations({ authorId });
 
-describe('findQuotationsByTagId()', () => {
-  test('resolves promise when quotations are found', () => {
-    assert.doesNotReject(findQuotationsByTagId(1));
+    results.forEach(quotation => assert.equal(quotation.authorId, authorId));
   });
 
-  test('rejects promise when quotations are not found', () => {
-    assert.rejects(findQuotationsByTagId(0), { message: 'Could not find any quotations for Tag ID 0' });
+  test('returns quotations by sourceId', async () => {
+    const sourceId = 2;
+    const results = await findQuotations({ sourceId });
+
+    results.forEach(quotation => assert.equal(quotation.sourceId, sourceId));
   });
 
-  test('returns quotations array', async () => {
-    const results = await findQuotationsByTagId(1);
-    assert.equal(Array.isArray(results), true);
-    results.forEach(result => assert.equal(typeof result, 'object'));
-  });
-});
+  test('returns quotations by tagId', async () => {
+    const tagId = 1;
+    const results = await findQuotations({ tagId });
 
-describe('findAllQuotations()', () => {
-  test('returns quotations array', async () => {
-    const results = await findAllQuotations();
-    assert.equal(Array.isArray(results), true);
-    results.forEach(result => assert.equal(typeof result, 'object'));
+    results.forEach(quotation => assert(quotation.tagIds.includes(tagId)));
+  });
+
+  test('rejects promise when quotation is not found', () => {
+    assert.rejects(findQuotations({ authorId: 1000 }), { message: 'No quotations found' });
   });
 });

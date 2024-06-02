@@ -11,8 +11,8 @@ export const findQuotationById = quotationId =>
   });
 
 export const findQuotations = (opts = null) => {
-  if (opts === null) return new Promise(resolve => resolve(quotations));
-  if (typeof opts !== 'object') return new Promise(reject => reject(new Error('Pass an object to findQuotations')));
+  if (opts === null) return Promise.resolve(quotations);
+  if (typeof opts !== 'object') return Promise.reject(new Error('Pass an object to findQuotations'));
 
   return new Promise((resolve, reject) => {
     const { authorId, sourceId, tagId } = opts;
