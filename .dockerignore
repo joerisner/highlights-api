@@ -1,0 +1,12 @@
+/.git
+/.github
+/node_modules
+/test
+.dockerignore
+.env.example
+.gitignore
+.prettierrc
+Dockerfile
+eslint.config.js
+playwright.config.js
+README.md

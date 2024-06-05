@@ -1,6 +1,6 @@
 # Highlights API
 
-This is an API serving highlighted quotes from books I've read.
+This is an API serving highlighted quotes from books I've read. Too often, important excerpts from books are highlighted and then hidden a book on my bookshelf, only to be forgotten or never read again. This API serves as a means for me to quickly refresh my memory of those highlights.
 
 ## Data
 
@@ -16,13 +16,31 @@ Create a `.env` file using the [.env.example](.env.example) file as a reference.
 touch .env
 ```
 
-Run the following command to install dependencies and start the application on the port defined in your `.env` file.
+Run the following command to setup the project locally.
+
+```sh
+make setup
+```
+
+Run the following command to start the application on the port defined in your `.env` file.
 
 ```sh
 make
 ```
 
-Use your REST client of choice for making requests (curl, Postman, Thunder Client, etc.)
+## Docker
+
+If you would rather run the application in a Docker container, run the following command.
+
+```sh
+make dstart
+```
+
+To stop (and remove) the running container, run the following command.
+
+```sh
+make dstop
+```
 
 ## Running tests
 
@@ -38,6 +56,6 @@ With a couple of tweaks, you could use this project to serve your own favorite h
 
 Assuming your port is set to `5000`, here's an example of sending a request to the `/random` endpoint using **curl**.
 
-```shell
+```sh
 curl -X GET "http://localhost:5000/random"
 ```
