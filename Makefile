@@ -30,7 +30,8 @@ dbuild: ## Build a docker image of the project
 
 .PHONY: dstart
 dstart: dbuild ## Start the API server in a container
-	@docker run --rm --name highlights-api -p 3000:3000 highlights-api
+	@docker run --rm -d --name highlights-api -p 3000:3000 highlights-api
+	@printf "\033[32;1mHighlights API server is now running\033[0m\n"
 
 .PHONY: dstop
 dstop: ## Shut down the running container
