@@ -4,11 +4,11 @@ This is an API serving highlighted quotes from books I've read. Too often, impor
 
 ## Data
 
-The data is maintained within the project ([src/data](src/data)). The models are simple enough and, currently, I don't want the overhead of a database. That may change in the future, though.
+The data is maintained within the project's [src/data](src/data) directory. The models are simple enough and the overhead of running a database is unnecessary for this project.
 
 ## Getting started
 
-Ensure you're running the proper version of Node (reference the [.nvmrc](.nvmrc) file).
+Ensure you have the proper version of Node installed (reference the [.nvmrc](.nvmrc) file).
 
 Create a `.env` file using the [.env.example](.env.example) file as a reference.
 
@@ -49,8 +49,6 @@ To run tests on the project, run the following command.
 ```sh
 make test
 ```
-
-With a couple of tweaks, you could use this project to serve your own favorite highlights or quotes. To do so, replace the data I have in `src/data/*` with your own, using the schema defined in [src/data/\_schema.json](src/data/_schema.json).
 
 ## Example request
 
