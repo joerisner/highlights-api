@@ -17,6 +17,7 @@ jobs:
         run: npm ci
       - name: Format
         run: npm run format
+
   eslint:
     runs-on: ubuntu-latest
     steps:
@@ -31,6 +32,7 @@ jobs:
         run: npm ci
       - name: Lint
         run: npm run lint
+
   unit-test:
     needs: [prettier, eslint]
     runs-on: ubuntu-latest
@@ -47,6 +49,7 @@ jobs:
       - name: Run unit tests
         run: npm run test:unit
     timeout-minutes: 5
+
   api-test:
     env:
       PORT: 3000
