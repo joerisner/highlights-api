@@ -3511,6 +3511,94 @@
       "authorId": 13,
       "sourceId": 14,
       "tagIds": [26]
+    },
+    {
+      "id": 440,
+      "body": "To be a successful leader, you're going to have to interact with them in much the same way that a shepherd interacts with his sheep.",
+      "metadata": "Chapter 1",
+      "authorId": 15,
+      "sourceId": 16,
+      "tagIds": [2, 27]
+    },
+    {
+      "id": 441,
+      "body": "\"Ted, the first principle of the Way of the Shepherd is to always know the condition of your flock!\"",
+      "metadata": "Chapter 1",
+      "authorId": 15,
+      "sourceId": 16,
+      "tagIds": [2, 4, 27]
+    },
+    {
+      "id": 442,
+      "body": "So, you have to make a point of knowing not just the status of the work but also the status of your people. Many managers focus too much on their projects and not enough on their people.",
+      "metadata": "Chapter 1",
+      "authorId": 15,
+      "sourceId": 16,
+      "tagIds": [2, 4, 27]
+    },
+    {
+      "id": 443,
+      "body": "You have to really care about your people. You can go through all the right mechanics, but if you don't genuinely care about the people who report to you, you'll never be the kind of leader they'll drop everything to follow. If they're nothing but stinking sheep to you, they'll never do their best work for you and they won't stay in your fold for long. It's an old adage, but it's true: people don't care how much you know until they know how much you care.",
+      "metadata": "Chapter 1",
+      "authorId": 15,
+      "sourceId": 16,
+      "tagIds": [2, 4, 27]
+    },
+    {
+      "id": 444,
+      "body": "Ted, most people spend years struggling to find their calling in life. I was one of them. I spent years doing other things that I was pretty good at, but I always felt something was missing. Until I discovered teaching, I felt like a square peg in a round hole. Once I found the classroom, I knew I had found my life purpose.",
+      "metadata": "Chapter 2",
+      "authorId": 15,
+      "sourceId": 16,
+      "tagIds": [1, 19]
+    },
+    {
+      "id": 445,
+      "body": "\"Now let's talk about the flock you're going to shepherd...,\" he said. \"How do you turn a collection of individual sheep, bordered by the same fence, into a flock?\"",
+      "metadata": "Chapter 3",
+      "authorId": 15,
+      "sourceId": 16,
+      "tagIds": [2, 4, 27]
+    },
+    {
+      "id": 446,
+      "body": "A leader's personal mark becomes the common denominator of the organization.",
+      "metadata": "Chapter 3",
+      "authorId": 15,
+      "sourceId": 16,
+      "tagIds": [27]
+    },
+    {
+      "id": 447,
+      "body": "A man can sell his integrity for a nickel, but all the money in the world won't buy it back again.",
+      "metadata": "Chapter 3",
+      "authorId": 15,
+      "sourceId": 16,
+      "tagIds": [9, 22]
+    },
+    {
+      "id": 448,
+      "body": "People long to follow a leader who is a person of integrity, authenticity, andd compassion. That person will have the loyal following and trust of his people.",
+      "metadata": "Chapter 3",
+      "authorId": 15,
+      "sourceId": 16,
+      "tagIds": [2, 4, 27]
+    },
+    {
+      "id": 449,
+      "body": "[Great leaders] know people are easily distracted by the many pulls of life, so they're continually calling them back to the mission, back to their purpose for being.",
+      "metadata": "Chapter 3",
+      "authorId": 15,
+      "sourceId": 16,
+      "tagIds": [2, 4, 27]
+    },
+    {
+      "id": 450,
+      "body": "You can [lead] from afar, or you can do it up close and personal. You can impress from afar, but to influence, to really leave your mark, you're going to have to do it personally.",
+      "metadata": "Chapter 3",
+      "authorId": 15,
+      "sourceId": 16,
+      "tagIds": [19, 27]
     }
   ]
 }
