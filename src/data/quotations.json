@@ -3599,6 +3599,118 @@
       "authorId": 15,
       "sourceId": 16,
       "tagIds": [19, 27]
+    },
+    {
+      "id": 451,
+      "body": "\"One more thing before we move on,\" Neumann said. \"Keep your sheep individually informed, as well as the flock as a whole.\"",
+      "metadata": "Chapter 4",
+      "authorId": 15,
+      "sourceId": 16,
+      "tagIds": [2, 27]
+    },
+    {
+      "id": 452,
+      "body": "You let your people know from day one, Ted, that everyone is important on your team. Teach your people that each person has a vital role to play. Make them feel like you couldn't do it without them.",
+      "metadata": "Chapter 4",
+      "authorId": 15,
+      "sourceId": 16,
+      "tagIds": [27]
+    },
+    {
+      "id": 453,
+      "body": "Point is: rotate opportunities among the different members of your flock, Ted. That way they won't feel a need to fight for them.",
+      "metadata": "Chapter 4",
+      "authorId": 15,
+      "sourceId": 16,
+      "tagIds": [2, 27]
+    },
+    {
+      "id": 454,
+      "body": "Be visible. Don't be an absentee shepherd. Nothing reassures the sheep more than the presence of the shepherd.",
+      "metadata": "Chapter 4",
+      "authorId": 15,
+      "sourceId": 16,
+      "tagIds": [2, 4, 27]
+    },
+    {
+      "id": 455,
+      "body": "A shepherd's first duty of the day is to lead his flock out of the fold to find fresh pasture. So the shepherd not only needs to know the terrain and where to find the greener grass but also how to get the flock there.",
+      "metadata": "Chapter 5",
+      "authorId": 15,
+      "sourceId": 16,
+      "tagIds": [2, 4, 27]
+    },
+    {
+      "id": 456,
+      "body": "The thing about sheep is they have tendency to focus on the grass that's right in front of them. Therefore, someone has to keep an eye on where the flock is going.",
+      "metadata": "Chapter 5",
+      "authorId": 15,
+      "sourceId": 16,
+      "tagIds": [2, 4, 27]
+    },
+    {
+      "id": 457,
+      "body": "\"What if it's raining?\" I probed. \"Doesn't matter. They're my sheep. I'm responsible for their well-being and safety. If they're in trouble, I go out and get them.\"",
+      "metadata": "Chapter 5",
+      "authorId": 15,
+      "sourceId": 16,
+      "tagIds": [2, 4, 27]
+    },
+    {
+      "id": 458,
+      "body": "Discipline isn't about handing out punishment or assigning blame; it's about instruction. It's about instructing your people in the direction they should go by helping them see further down the path they're currently treading.",
+      "metadata": "Chapter 6",
+      "authorId": 15,
+      "sourceId": 16,
+      "tagIds": [2, 27]
+    },
+    {
+      "id": 459,
+      "body": "\"It's your duty,\" Neumann continued, \"to regularly inquire about the progress of your people, because you're responsible for developing them.\"",
+      "metadata": "Chapter 6",
+      "authorId": 15,
+      "sourceId": 16,
+      "tagIds": [2, 4, 27]
+    },
+    {
+      "id": 460,
+      "body": "More than anything, the Way of the Shepherd is a lifestyle of leadership that places great value on the worth of the flock.",
+      "metadata": "Chapter 7",
+      "authorId": 15,
+      "sourceId": 16,
+      "tagIds": [2, 4, 27]
+    },
+    {
+      "id": 461,
+      "body": "\"Great leadership is hard work,\" he said. \"More than that, it's unrelenting. Those who do it well do so because they are willing to pay the price. You need to know that going in.\"",
+      "metadata": "Chapter 7",
+      "authorId": 15,
+      "sourceId": 16,
+      "tagIds": [27]
+    },
+    {
+      "id": 462,
+      "body": "The price you're willing to pay is relative to the value you attribute to something. That man refused to pay the price, not because he thought it was too high but because the value he put on his sheep was too low. Shepherds call a person like that a 'hireling.'",
+      "metadata": "Chapter 7",
+      "authorId": 15,
+      "sourceId": 16,
+      "tagIds": [2, 4, 27]
+    },
+    {
+      "id": 463,
+      "body": "What makes a shepherd a shepherd isn't the staff or the rod; it's the heart. What distinguishes a great leader from a mediocre one is that a great leader has a heart for his people.",
+      "metadata": "Chapter 7",
+      "authorId": 15,
+      "sourceId": 16,
+      "tagIds": [27]
+    },
+    {
+      "id": 464,
+      "body": "You could be the greatest shepherd in the world, but if they don't know you as their shepherd, you're just a stranger to them.",
+      "metadata": "Chapter 7",
+      "authorId": 15,
+      "sourceId": 16,
+      "tagIds": [27]
     }
   ]
 }
