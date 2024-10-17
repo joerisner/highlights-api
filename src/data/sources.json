@@ -79,6 +79,11 @@
       "id": 16,
       "title": "The Way of the Shepherd",
       "type": "BOOK"
+    },
+    {
+      "id": 17,
+      "title": "Streams in the Desert",
+      "type": "BOOK"
     }
   ]
 }
