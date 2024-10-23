@@ -3711,6 +3711,30 @@
       "authorId": 15,
       "sourceId": 16,
       "tagIds": [27]
+    },
+    {
+      "id": 465,
+      "body": "Let us refuse to be discouraged. Let us refuse to be unhappy. Let us \"count it all joy\" when we cannot feel one emotion of happiness.",
+      "metadata": "October 16",
+      "authorId": 16,
+      "sourceId": 17,
+      "tagIds": [12]
+    },
+    {
+      "id": 466,
+      "body": "An old believer remarked, that cheerfulness in religion makes all its services come off with delight; and that we are never carried forward so swiftly in the ways of duty as when borne on the wings of delight; adding, that Melancholy clips such wings; or, to alter the figure, takes off our chariot wheels in duty, and makes them, like those of the Egyptians, drag heavily.",
+      "metadata": "October 16",
+      "authorId": 16,
+      "sourceId": 17,
+      "tagIds": [12, 19]
+    },
+    {
+      "id": 467,
+      "body": "Measure thy life by loss and not by gain, not by the wine drunk, but by the wine poured forth. For love's strength standeth in love's sacrifice, and he who suffers most has most to give.",
+      "metadata": "October 11",
+      "authorId": 16,
+      "sourceId": 17,
+      "tagIds": [12]
     }
   ]
 }
