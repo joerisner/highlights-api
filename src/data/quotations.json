@@ -1598,7 +1598,7 @@
       "metadata": "Book 4, Chapter 1",
       "authorId": 9,
       "sourceId": 9,
-      "tagIds": [5]
+      "tagIds": [3, 5, 22]
     },
     {
       "id": 201,
