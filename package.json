@@ -14,7 +14,7 @@
     "lint": "eslint .",
     "test:api": "playwright test",
     "test:report": "playwright show-report test/api/report",
-    "test:unit": "node --test --test-reporter=spec test/unit/"
+    "test:unit": "node --test --test-reporter=spec \"./test/unit/**/*.js\""
   },
   "dependencies": {
     "dotenv": "^16.4.5",
