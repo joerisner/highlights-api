@@ -1,17 +1,18 @@
-ARG NODE_VERSION=20.17.0
-
-FROM node:${NODE_VERSION}-alpine
+FROM node:22.11.0-alpine
 
 WORKDIR /usr/src/app
 
 RUN apk add --update --no-cache make
 
 COPY package.json package-lock.json Makefile ./
-
 RUN make setup
 
-COPY . .
+COPY src ./src
 
-EXPOSE 3000
+ENV PORT=3000
+EXPOSE $PORT
+
+RUN adduser -D app
+USER app
 
 CMD ["make", "start"]

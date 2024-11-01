@@ -24,10 +24,10 @@ test: setup ## Execute the test suite
 	npm run test:unit && npm run test:api
 
 dbuild: ## Build a docker image of the project
-	@docker build -t highlights-api .
+	@docker build --no-cache -t jrisner/highlights-api .
 
 dstart: dbuild ## Start the API server in a container
-	@docker run --rm -d --name highlights-api -p 3000:3000 highlights-api
+	@docker run --rm -d --name highlights-api -p 3000:3000 jrisner/highlights-api
 	@printf "\033[32;1mHighlights API server is now running\033[0m\n"
 
 dstop: ## Shut down the running container
