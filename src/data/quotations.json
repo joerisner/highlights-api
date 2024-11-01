@@ -3735,6 +3735,38 @@
       "authorId": 16,
       "sourceId": 17,
       "tagIds": [12]
+    },
+    {
+      "id": 468,
+      "body": "In our ordinary religious teaching, the aspect of the sinner has been emphasized too strongly, to the point that some have even gone to the extreme thinking that we must keep sinning if we are to stay humble.",
+      "metadata": "Preface",
+      "authorId": 17,
+      "sourceId": 18,
+      "tagIds": [16]
+    },
+    {
+      "id": 469,
+      "body": "We have our life from and in Christ, more truly than from and in Adam.",
+      "metadata": "Chapter 2",
+      "authorId": 17,
+      "sourceId": 18,
+      "tagIds": [5]
+    },
+    {
+      "id": 470,
+      "body": "This life of entire self-denial, of absolute submission and dependence upon the Father's will, Christ found to be one of perfect peace and joy. He lost nothing by giving all to God.",
+      "metadata": "Chapter 3",
+      "authorId": 17,
+      "sourceId": 18,
+      "tagIds": [12, 28]
+    },
+    {
+      "id": 471,
+      "body": "We must learn from Jesus, how He is meek and lowly of heart. He teaches us where true humility takes its proper place and finds its strength. This happens when we take hold of the knowledge that it is God who works all in all, that our responsibility is to yield to Him in perfect surrender and dependence, in full compliance to be and to do nothing of ourselves. Christ came to reveal and pass on a life to God that came through death to sin and self.",
+      "metadata": "Chapter 3",
+      "authorId": 17,
+      "sourceId": 18,
+      "tagIds": [16, 28]
     }
   ]
 }
