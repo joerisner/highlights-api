@@ -3863,6 +3863,30 @@
       "authorId": 18,
       "sourceId": 19,
       "tagIds": [5, 21]
+    },
+    {
+      "id": 484,
+      "body": "The new birth is the creation of spiritual life, not the imitation of life.",
+      "metadata": "Chapter 2",
+      "authorId": 18,
+      "sourceId": 19,
+      "tagIds": [5]
+    },
+    {
+      "id": 485,
+      "body": "So we have life by being connected with the Son of God who is our life, and we have that life by the work of the Spirit. We concluded, therefore, that the work of the Spirit in regeneration is to impart new life to us by uniting us to Christ.",
+      "metadata": "Chapter 2",
+      "authorId": 18,
+      "sourceId": 19,
+      "tagIds": [5, 17]
+    },
+    {
+      "id": 486,
+      "body": "In the new birth, the Holy Spirit supernaturally gives us new spiritual life by connecting us with Jesus Christ through faith.",
+      "metadata": "Chapter 2",
+      "authorId": 18,
+      "sourceId": 19,
+      "tagIds": [5, 17, 21]
     }
   ]
 }
