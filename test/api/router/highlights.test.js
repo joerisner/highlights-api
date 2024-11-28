@@ -22,6 +22,7 @@ test.describe('/highlights', () => {
       {
         author: expect.any(String),
         body: expect.any(String),
+        metadata: expect.any(String),
         source: expect.any(String),
         tags: expect.any(Array)
       }
