@@ -5,7 +5,7 @@ import { listTagNamesFromIds } from '#utils/models/tag';
 import { handle404 } from '../errorHandler.js';
 
 const generateHighlight = async quotation => {
-  const { body, authorId, sourceId, tagIds } = quotation;
+  const { body, authorId, sourceId, metadata, tagIds } = quotation;
   const { firstName, lastName } = await findAuthorById(authorId);
   const { title } = await findSourceById(sourceId);
   const tags = await listTagNamesFromIds(tagIds);
@@ -14,6 +14,7 @@ const generateHighlight = async quotation => {
     author: `${firstName} ${lastName}`,
     body,
     source: title,
+    metadata,
     tags
   };
 };
