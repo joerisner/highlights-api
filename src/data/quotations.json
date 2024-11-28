@@ -3887,6 +3887,30 @@
       "authorId": 18,
       "sourceId": 19,
       "tagIds": [5, 17, 21]
+    },
+    {
+      "id": 487,
+      "body": "Nearly all the wisdom we possess, that is to say, true and sound wisdom, consists of two parts: the knowledge of God and of ourselves.",
+      "metadata": "Chapter 1",
+      "authorId": 19,
+      "sourceId": 20,
+      "tagIds": [29]
+    },
+    {
+      "id": 488,
+      "body": "The world does not forget great characters. But great characters are not made of luxuries, they are made by suffering.",
+      "metadata": "December 7",
+      "authorId": 16,
+      "sourceId": 17,
+      "tagIds": [1, 27]
+    },
+    {
+      "id": 489,
+      "body": "What nobler decoration of honor can any godly man seek after than his scars of service, his losses for the crown, his reproaches for Christ's sake, his being worn out in his Master's service!",
+      "metadata": "December 12",
+      "authorId": 16,
+      "sourceId": 17,
+      "tagIds": [19]
     }
   ]
 }
