@@ -1622,15 +1622,15 @@
       "metadata": "Book 4, Chapter 4",
       "authorId": 9,
       "sourceId": 9,
-      "tagIds": []
+      "tagIds": [30]
     },
     {
       "id": 204,
-      "body": "What grows out of the joint life of the Father and Son is a real Person, is in fact the Third of the three Persons who are God. This third Person is called, in technical language, the Host Ghost or the 'spirit' of God.",
+      "body": "What grows out of the joint life of the Father and Son is a real Person, is in fact the Third of the three Persons who are God. This third Person is called, in technical language, the Holy Ghost or the 'spirit' of God.",
       "metadata": "Book 4, Chapter 4",
       "authorId": 9,
       "sourceId": 9,
-      "tagIds": [17]
+      "tagIds": [17, 30]
     },
     {
       "id": 205,
@@ -1638,7 +1638,7 @@
       "metadata": "Book 4, Chapter 5",
       "authorId": 9,
       "sourceId": 9,
-      "tagIds": [6]
+      "tagIds": [6, 30]
     },
     {
       "id": 206,
