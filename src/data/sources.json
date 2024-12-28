@@ -94,6 +94,11 @@
       "id": 19,
       "title": "Finally Alive",
       "type": "BOOK"
+    },
+    {
+      "id": 20,
+      "title": "Institutes of the Christian Religion",
+      "type": "BOOK"
     }
   ]
 }

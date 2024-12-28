@@ -1622,15 +1622,15 @@
       "metadata": "Book 4, Chapter 4",
       "authorId": 9,
       "sourceId": 9,
-      "tagIds": []
+      "tagIds": [30]
     },
     {
       "id": 204,
-      "body": "What grows out of the joint life of the Father and Son is a real Person, is in fact the Third of the three Persons who are God. This third Person is called, in technical language, the Host Ghost or the 'spirit' of God.",
+      "body": "What grows out of the joint life of the Father and Son is a real Person, is in fact the Third of the three Persons who are God. This third Person is called, in technical language, the Holy Ghost or the 'spirit' of God.",
       "metadata": "Book 4, Chapter 4",
       "authorId": 9,
       "sourceId": 9,
-      "tagIds": [17]
+      "tagIds": [17, 30]
     },
     {
       "id": 205,
@@ -1638,7 +1638,7 @@
       "metadata": "Book 4, Chapter 5",
       "authorId": 9,
       "sourceId": 9,
-      "tagIds": [6]
+      "tagIds": [6, 30]
     },
     {
       "id": 206,
@@ -3863,6 +3863,54 @@
       "authorId": 18,
       "sourceId": 19,
       "tagIds": [5, 21]
+    },
+    {
+      "id": 484,
+      "body": "The new birth is the creation of spiritual life, not the imitation of life.",
+      "metadata": "Chapter 2",
+      "authorId": 18,
+      "sourceId": 19,
+      "tagIds": [5]
+    },
+    {
+      "id": 485,
+      "body": "So we have life by being connected with the Son of God who is our life, and we have that life by the work of the Spirit. We concluded, therefore, that the work of the Spirit in regeneration is to impart new life to us by uniting us to Christ.",
+      "metadata": "Chapter 2",
+      "authorId": 18,
+      "sourceId": 19,
+      "tagIds": [5, 17]
+    },
+    {
+      "id": 486,
+      "body": "In the new birth, the Holy Spirit supernaturally gives us new spiritual life by connecting us with Jesus Christ through faith.",
+      "metadata": "Chapter 2",
+      "authorId": 18,
+      "sourceId": 19,
+      "tagIds": [5, 17, 21]
+    },
+    {
+      "id": 487,
+      "body": "Nearly all the wisdom we possess, that is to say, true and sound wisdom, consists of two parts: the knowledge of God and of ourselves.",
+      "metadata": "Chapter 1",
+      "authorId": 19,
+      "sourceId": 20,
+      "tagIds": [29]
+    },
+    {
+      "id": 488,
+      "body": "The world does not forget great characters. But great characters are not made of luxuries, they are made by suffering.",
+      "metadata": "December 7",
+      "authorId": 16,
+      "sourceId": 17,
+      "tagIds": [1, 27]
+    },
+    {
+      "id": 489,
+      "body": "What nobler decoration of honor can any godly man seek after than his scars of service, his losses for the crown, his reproaches for Christ's sake, his being worn out in his Master's service!",
+      "metadata": "December 12",
+      "authorId": 16,
+      "sourceId": 17,
+      "tagIds": [19]
     }
   ]
 }
