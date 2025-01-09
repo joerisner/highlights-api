@@ -99,6 +99,11 @@
       "id": 20,
       "title": "Institutes of the Christian Religion",
       "type": "BOOK"
+    },
+    {
+      "id": 21,
+      "title": "The Shawn Ryan Show",
+      "type": "PODCAST"
     }
   ]
 }
