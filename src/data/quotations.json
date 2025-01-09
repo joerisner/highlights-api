@@ -3911,6 +3911,14 @@
       "authorId": 16,
       "sourceId": 17,
       "tagIds": [19]
+    },
+    {
+      "id": 490,
+      "body": "Aside from nurturing from Mom, [boys] need validation from Dad. Every day. There's a bucket to fill every day.",
+      "metadata": "Episode 156: Chris Fettes (57:18)",
+      "authorId": 20,
+      "sourceId": 21,
+      "tagIds": [3, 22]
     }
   ]
 }
