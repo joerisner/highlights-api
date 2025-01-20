@@ -4015,6 +4015,102 @@
       "authorId": 18,
       "sourceId": 19,
       "tagIds": [5, 12, 23]
+    },
+    {
+      "id": 503,
+      "body": "Galilee might be the outer court, but Judaea was like the inner sanctuary of Israel.",
+      "metadata": "Chapter 5",
+      "authorId": 14,
+      "sourceId": 15,
+      "tagIds": [24]
+    },
+    {
+      "id": 504,
+      "body": "Here [westward of Jerusalem] Joshua had pursued the kings of the south; there Samson had come down upon the Philistines, and here for long years had war been waged against the arch-enemy of Israel, Philistia.",
+      "metadata": "Chapter 5",
+      "authorId": 14,
+      "sourceId": 15,
+      "tagIds": [24]
+    },
+    {
+      "id": 505,
+      "body": "[Through Jericho] passed the great caravan-road, which connected Arabia with Damascus. The fertility of its soil, and its tropical produce, were almost proverbial. Its palm-groves and gardens of roses, but especially its balsam-plantations, of which the largest was behind the royal palace, were the fairy land of the old world.",
+      "metadata": "Chapter 5",
+      "authorId": 14,
+      "sourceId": 15,
+      "tagIds": [24]
+    },
+    {
+      "id": 506,
+      "body": "To the Jew [Jerusalem] was the true home of his soul, the centre of his inmost life, the longing of his heart. \"If I forget thee, O Jerusalem, let my right hand forget her cunning,\" sang they who sat by the rivers of Babylon, weeping as they remembered Zion.",
+      "metadata": "Chapter 5",
+      "authorId": 14,
+      "sourceId": 15,
+      "tagIds": [24]
+    },
+    {
+      "id": 507,
+      "body": "The title \"Son of man\" was familiar to those who had drawn their ideas of the Messiah from the well-known pages of Daniel. The popular apocalyptic literature of the period, especially the so-called \"Book of Enoch,\" not only kept this designation in popular memory, but enlarged on the judgment which He was to execute on Gentile kings and nations.",
+      "metadata": "Chapter 5",
+      "authorId": 14,
+      "sourceId": 15,
+      "tagIds": [24, 30]
+    },
+    {
+      "id": 508,
+      "body": "The question of the Messiah might come up as a speculative point; it might force itself upon the attention of the Sanhedrim; but it was not of personal, practical, life-interest to [the Sanhedrists].",
+      "metadata": "Chapter 5",
+      "authorId": 14,
+      "sourceId": 15,
+      "tagIds": [24]
+    },
+    {
+      "id": 509,
+      "body": "We can readily understand, that to a Jew Caesarea was the symbol of Rome, Rome of Edom - and Edom was to be destroyed!",
+      "metadata": "Chapter 5",
+      "authorId": 14,
+      "sourceId": 15,
+      "tagIds": [24]
+    },
+    {
+      "id": 510,
+      "body": "It deserves notice, that the answer which the Sanhedrists of old gave to the inquiries of Herod (Matt. 2:5) is equally returned in many Talmudical passages, and with the same reference to Micah 5:2. It may therefore be regarded as a settled point that, according to the Jewish fathers, Messiah, the Son of David, was to be born in Bethlehem of Judah.",
+      "metadata": "Chapter 5",
+      "authorId": 14,
+      "sourceId": 15,
+      "tagIds": [24]
+    },
+    {
+      "id": 511,
+      "body": "At all times Bethlehem was among \"the least\" in Judah - so small that the Rabbis do not even refer to it in detail.",
+      "metadata": "Chapter 5",
+      "authorId": 14,
+      "sourceId": 15,
+      "tagIds": [24]
+    },
+    {
+      "id": 512,
+      "body": "Of the hospitality of the inhabitants of Jerusalem accounts are given, which we can scarcely regard as much exaggerated; for the city was not reckoned to belong to any tribe in particular; it was to be considered as equally the home of all. Its houses were to be neither hired nor let, but freely thrown open to every brother.",
+      "metadata": "Chapter 5",
+      "authorId": 14,
+      "sourceId": 15,
+      "tagIds": [24]
+    },
+    {
+      "id": 513,
+      "body": "In truth, every effort was used to make Jerusalem truly a city of delight. Its police and sanitary regulations were more perfect than in any modern city; the arrangements such as to keep the pilgrim free to give his heart and mind to sacred subjects.",
+      "metadata": "Chapter 5",
+      "authorId": 14,
+      "sourceId": 15,
+      "tagIds": [24]
+    },
+    {
+      "id": 514,
+      "body": "Each morning [in Jerusalem] the threefold blast of the priests' trumpets wakened the city with a call to prayer; each evening the same blasts closed the working day, as with sounds from heaven.",
+      "metadata": "Chapter 5",
+      "authorId": 14,
+      "sourceId": 15,
+      "tagIds": [24, 25]
     }
   ]
 }
