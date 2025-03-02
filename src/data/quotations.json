@@ -4111,6 +4111,22 @@
       "authorId": 14,
       "sourceId": 15,
       "tagIds": [24, 25]
+    },
+    {
+      "id": 515,
+      "body": "...craftsmanship has been said to consist simply in the desire to do something well, for its own sake.",
+      "metadata": "Chapter 1",
+      "authorId": 21,
+      "sourceId": 22,
+      "tagIds": [31, 32]
+    },
+    {
+      "id": 516,
+      "body": "The satisfactions of manifesting oneself concretely in the world through manual competence have been known to make a man quiet and easy. They seem to relieve him of the felt need to offer chattering interpretations of himself to vindicate his worth. He can simply point: the building stands, the car now runs, the lights are on. Boasting is what a boy does, because he has no real effect in the world.",
+      "metadata": "Chapter 1",
+      "authorId": 21,
+      "sourceId": 22,
+      "tagIds": [9, 31, 32]
     }
   ]
 }

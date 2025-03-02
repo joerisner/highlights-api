@@ -119,6 +119,14 @@
     {
       "id": 30,
       "name": "Trinity"
+    },
+    {
+      "id": 31,
+      "name": "Work"
+    },
+    {
+      "id": 32,
+      "name": "Craftsmanship"
     }
   ]
 }
