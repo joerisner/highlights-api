@@ -25,7 +25,7 @@ make setup
 Run the following command to start the application on the port defined in your `.env` file.
 
 ```sh
-make
+make start
 ```
 
 ## Docker
