@@ -104,6 +104,11 @@
       "id": 21,
       "title": "The Shawn Ryan Show",
       "type": "PODCAST"
+    },
+    {
+      "id": 22,
+      "title": "Shop Class as Soulcraft",
+      "type": "BOOK"
     }
   ]
 }
