@@ -109,6 +109,11 @@
       "id": 22,
       "title": "Shop Class as Soulcraft",
       "type": "BOOK"
+    },
+    {
+      "id": 23,
+      "title": "The Knowledge of the Holy",
+      "type": "BOOK"
     }
   ]
 }
