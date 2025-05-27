@@ -4391,6 +4391,22 @@
       "authorId": 18,
       "sourceId": 19,
       "tagIds": [5, 16, 17, 21, 23, 30]
+    },
+    {
+      "id": 550,
+      "body": "However near the cities of the heathen to those of Israel, however frequent and close the intercourse between the two parties, no one could have entered a Jewish town or village without feeling, so to speak, in quite another world.",
+      "metadata": "Chapter 6",
+      "authorId": 14,
+      "sourceId": 15,
+      "tagIds": [24]
+    },
+    {
+      "id": 551,
+      "body": "Josephus (Life, 45) speaks of not fewer than two hundred and forty townships in Galilee alone in his days.",
+      "metadata": "Chapter 6",
+      "authorId": 14,
+      "sourceId": 15,
+      "tagIds": [24]
     }
   ]
 }
