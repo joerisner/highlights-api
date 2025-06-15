@@ -127,6 +127,14 @@
     {
       "id": 32,
       "name": "Craftsmanship"
+    },
+    {
+      "id": 33,
+      "name": "Education"
+    },
+    {
+      "id": 34,
+      "name": "Responsibility"
     }
   ]
 }

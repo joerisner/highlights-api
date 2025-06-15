@@ -128,7 +128,7 @@
     },
     {
       "id": 22,
-      "completed": false,
+      "completed": true,
       "title": "Shop Class as Soulcraft",
       "type": "BOOK"
     },

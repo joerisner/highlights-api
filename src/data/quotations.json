@@ -3510,7 +3510,7 @@
       "metadata": "Chapter 10",
       "authorId": 13,
       "sourceId": 14,
-      "tagIds": [26]
+      "tagIds": [33]
     },
     {
       "id": 440,
@@ -4583,6 +4583,350 @@
       "authorId": 22,
       "sourceId": 23,
       "tagIds": [29]
+    },
+    {
+      "id": 574,
+      "body": "Today, in our schools, the manual trades are given little honor. The egalitarian worry that has always attended tracking students into \"college prep\" and \"vocational ed\" is overlaid with another: the fear that acquiring a specific skill set means that one's life is determined. In college, by contrast, many students don't learn anything of particular application; college is the ticket to an open future. Craftsmanship entails learning to do one thing really well, while the ideal of the new economy is to be able to learn new things, celebrating potential rather than achievement.",
+      "metadata": "Chapter 1",
+      "authorId": 21,
+      "sourceId": 22,
+      "tagIds": [31, 32, 33]
+    },
+    {
+      "id": 575,
+      "body": "Even on the relatively primitive vintage bikes that were our specialty, some diagnostic situations contain so many variables, and symptoms can be so under-determining of causes, that explicit analytical reasoning comes up short. What is required then is the kind of judgment that arises only from experience; hunches rather than rules. I quickly realized there was more thinking going on in the bike shop than in my previous job at the think tank.",
+      "metadata": "Chapter 1",
+      "authorId": 21,
+      "sourceId": 22,
+      "tagIds": [31, 32]
+    },
+    {
+      "id": 576,
+      "body": "There is evidence to suggest that the new frontier of capitalism lies in doing to office work what was previously done to factory work: draining it of its cognitive elements.",
+      "metadata": "Chapter 1",
+      "authorId": 21,
+      "sourceId": 22,
+      "tagIds": [31]
+    },
+    {
+      "id": 577,
+      "body": "The best sort of democratic education is neither snobbish nor egalitarian. Rather, it accords a place of honor in our common life to whatever is best. At this weird moment of growing passivity and dependence, let us publicly recognize a yeoman aristocracy: those who gain real knowledge of real things, the sort we all depend on every day.",
+      "metadata": "Chapter 1",
+      "authorId": 21,
+      "sourceId": 22,
+      "tagIds": [33]
+    },
+    {
+      "id": 578,
+      "body": "Efforts to separate thinking from doing...achieved a good deal of success in ordering our economic life, and it is this success that perhaps explains the plausibility the distinction now enjoys. Yet to call this \"success\" is deeply perverse, for wherever the separation of thinking from doing has been achieved, it has been responsible for the degradation of work.",
+      "metadata": "Chapter 2",
+      "authorId": 21,
+      "sourceId": 22,
+      "tagIds": [31]
+    },
+    {
+      "id": 579,
+      "body": "Once the cognitive aspects of the job are located in a separate management class, or better yet in a process that, once designed, requires no ongoing judgment or deliberation, skilled workers can be replaced with unskilled workers at a lower rate of pay.",
+      "metadata": "Chapter 2",
+      "authorId": 21,
+      "sourceId": 22,
+      "tagIds": [31]
+    },
+    {
+      "id": 580,
+      "body": "Given their likely acquaintance with such a cognitively rich world of work, it is hardly surprising that when Henry Ford introduced the assembly line in 1913, workers simply walked out. One of Ford's biographers wrote, \"So great was labor's distaste for the new machine system that toward the close of 1913 every time the company wanted to add 100 men to its factory personnel, it was necessary to hire 963.\"",
+      "metadata": "Chapter 2",
+      "authorId": 21,
+      "sourceId": 22,
+      "tagIds": [31]
+    },
+    {
+      "id": 581,
+      "body": "A man whose needs are limited will find the least noxious livelihood and work in a subsistence mode, and indeed the experience of early (eighteenth-century) capitalism, when many producers worked at home on a piece-rate basis, was that only so much labor could be extracted from them.",
+      "metadata": "Chapter 2",
+      "authorId": 21,
+      "sourceId": 22,
+      "tagIds": [31]
+    },
+    {
+      "id": 582,
+      "body": "Eventually it was learned that the only way to get them to work harder was to play upon the imagination, stimulating new needs and wants. Consumption, no less than production, needed to be brought under scientific management - the management of desire.",
+      "metadata": "Chapter 2",
+      "authorId": 21,
+      "sourceId": 22,
+      "tagIds": [31]
+    },
+    {
+      "id": 583,
+      "body": "Trafficking in abstractions is not the same as thinking.",
+      "metadata": "Chapter 2",
+      "authorId": 21,
+      "sourceId": 22,
+      "tagIds": [33]
+    },
+    {
+      "id": 584,
+      "body": "Standardized tests remove a teacher's discretion in the curriculum; strict sentencing guidelines prevent a judge from judging. It seems to be our liberal political instincts that push us in this direction of centralizing authority; we distrust authority in the hands of individuals.",
+      "metadata": "Chapter 2",
+      "authorId": 21,
+      "sourceId": 22,
+      "tagIds": [33]
+    },
+    {
+      "id": 585,
+      "body": "Extraordinary human ingenuity has been used to eliminate the need for human ingenuity.",
+      "metadata": "Chapter 2",
+      "authorId": 21,
+      "sourceId": 22,
+      "tagIds": [33]
+    },
+    {
+      "id": 586,
+      "body": "The human expert who is cloned achieves a vast dominion and immortality, in a sense. It is other experts and future experts, who are displaced as expertise is centralized.",
+      "metadata": "Chapter 2",
+      "authorId": 21,
+      "sourceId": 22,
+      "tagIds": [31]
+    },
+    {
+      "id": 587,
+      "body": "It seems we must take a cold-eyed view of \"knowledge work,\" and reject the image of a rising sea of pure mentation that lifts all boats. More likely is a rising sea of clerkdom.",
+      "metadata": "Chapter 2",
+      "authorId": 21,
+      "sourceId": 22,
+      "tagIds": [31]
+    },
+    {
+      "id": 588,
+      "body": "The truth, of course, is that creativity is a by-product of mastery of the sort that is cultivated through long practice. It seems to be built up through submission (think a musician practicing scales, or Einstein learning tensor algebra).",
+      "metadata": "Chapter 2",
+      "authorId": 21,
+      "sourceId": 22,
+      "tagIds": [32, 33]
+    },
+    {
+      "id": 589,
+      "body": "What is it that we really want for a young person when we give him or her vocational advice? The only creditable answer, it seems to me, is one that avoids utopianism while keeping an eye on the human good: work that engages the human capacities as fully as possible.",
+      "metadata": "Chapter 2",
+      "authorId": 21,
+      "sourceId": 22,
+      "tagIds": [2, 31, 33]
+    },
+    {
+      "id": 590,
+      "body": "The physical circumstances of the jobs performed by carpenters, plumbers, and auto mechanics vary too much for them to be executed by idiots; they require circumspection and adaptability. One feels like a man, not a cog in a machine. The trades are then a natural home for anyone who would live by his own powers, free not only of deadening abstraction but also of the insidious hopes and rising insecurities that seem to be endemic in our current economic life.",
+      "metadata": "Chapter 2",
+      "authorId": 21,
+      "sourceId": 22,
+      "tagIds": [9, 31, 32]
+    },
+    {
+      "id": 591,
+      "body": "There seems to be an ideology of freedom at the heart of consumerist material culture; a promise to disburden us of mental and bodily involvement with our own stuff so we can pursue ends we have freely chosen. Yet this disburdening gives us fewer occasions for the experience of direct responsibility.",
+      "metadata": "Chapter 3",
+      "authorId": 21,
+      "sourceId": 22,
+      "tagIds": [34]
+    },
+    {
+      "id": 592,
+      "body": "You wouldn't be riding a motorcycle if you weren't an optimist.",
+      "metadata": "Chapter 3",
+      "authorId": 21,
+      "sourceId": 22,
+      "tagIds": []
+    },
+    {
+      "id": 593,
+      "body": "Somehow [in advertising] self-realization and freedom always entail buying something new, never conserving something old.",
+      "metadata": "Chapter 3",
+      "authorId": 21,
+      "sourceId": 22,
+      "tagIds": [9, 34]
+    },
+    {
+      "id": 594,
+      "body": "One can't be a musician without learning to play a particular instrument, subjecting one's fingers to the discipline of frets or keys. The musician's power of expression is founded upon a prior obedience; her musical agency is built up from an ongoing submission.",
+      "metadata": "Chapter 3",
+      "authorId": 21,
+      "sourceId": 22,
+      "tagIds": [32, 34]
+    },
+    {
+      "id": 595,
+      "body": "Advertisers have constant recourse to a stock image: somebody engaged in some focal practice, lost in his work. Often it is precisely that focal practice that the product promises to disburden us of, such as the building of a custom car or motorcycle. The marketers seem to grasp that it is not the product but the practice that is really attractive.",
+      "metadata": "Chapter 3",
+      "authorId": 21,
+      "sourceId": 22,
+      "tagIds": [32]
+    },
+    {
+      "id": 596,
+      "body": "A good diamond cutter has a different disposition than a good dog trainer. The one is careful, the other commanding. Different kinds of work attract different human types, and we are lucky if we find work that is fitting.",
+      "metadata": "Chapter 4",
+      "authorId": 21,
+      "sourceId": 22,
+      "tagIds": [31]
+    },
+    {
+      "id": 597,
+      "body": "It is a rare person who is naturally inclined to sit still for sixteen years in school, and then indefinitely at work, yet with the dismantling of high school shop programs, this has become the one-size-fits-all norm, even as we go on about \"diversity.\"",
+      "metadata": "Chapter 4",
+      "authorId": 21,
+      "sourceId": 22,
+      "tagIds": [31, 33]
+    },
+    {
+      "id": 598,
+      "body": "By the mere fact that [mechanics] stand ready to fix things, as a class they are an affront to the throwaway society. Just as important, the kind of thinking they do, if they are good, offers a counterweight to the culture of narcissism.",
+      "metadata": "Chapter 4",
+      "authorId": 21,
+      "sourceId": 22,
+      "tagIds": [31]
+    },
+    {
+      "id": 599,
+      "body": "We are accustomed to think of the business world as ruled by an amoral bottom-line mentality, but in fact it is impossible to make sense of the office without noticing that it has become a place of moral education, where souls are formed and a particular ideal of what it means to be a good person is urged upon us.",
+      "metadata": "Chapter 6",
+      "authorId": 21,
+      "sourceId": 22,
+      "tagIds": [31]
+    },
+    {
+      "id": 600,
+      "body": "[In the contemporary office] one finds an imperative for the manager to care, and to sincerely hold forth to his subordinates the possibility of personal transformation. He is not so much a boss as a life coach.",
+      "metadata": "Chapter 6",
+      "authorId": 21,
+      "sourceId": 22,
+      "tagIds": [31]
+    },
+    {
+      "id": 601,
+      "body": "Managers are placed in the middle of an enduring social conflict that once gave rise to street riots but is mostly silent in our times: the antagonism between labor and capital.",
+      "metadata": "Chapter 6",
+      "authorId": 21,
+      "sourceId": 22,
+      "tagIds": [27, 31]
+    },
+    {
+      "id": 602,
+      "body": "There is pride of accomplishment in the performance of whole tasks that can be held in the mind all at once, and contemplated as whole once finished. In most work that transpires in large organizations, one's work is meaningless taken by itself. The individual feels that, alone, he is without any effect.",
+      "metadata": "Chapter 6",
+      "authorId": 21,
+      "sourceId": 22,
+      "tagIds": [31]
+    },
+    {
+      "id": 603,
+      "body": "There is a real freedom of speech on a job site, which reverberates outward and sustains a wider liberality. You can tell dirty jokes. Where there is real work being done, the order of things isn't quite so fragile.",
+      "metadata": "Chapter 6",
+      "authorId": 21,
+      "sourceId": 22,
+      "tagIds": [31]
+    },
+    {
+      "id": 604,
+      "body": "Not surprisingly, it is the office rather than the job site that has seen the advent of speech codes, diversity workshops, and other forms of higher regulation...where no appeal to a carpenter's level is possible, sensitivity training becomes necessary.",
+      "metadata": "Chapter 6",
+      "authorId": 21,
+      "sourceId": 22,
+      "tagIds": [31]
+    },
+    {
+      "id": 605,
+      "body": "To regard universal knowledge as the whole of knowledge is to take no account of embodiment and purposiveness, those features of actual thinkers who are always in particular situations.",
+      "metadata": "Chapter 7",
+      "authorId": 21,
+      "sourceId": 22,
+      "tagIds": [33]
+    },
+    {
+      "id": 606,
+      "body": "The things we know best are the ones we contend with in some realm of regular practice.",
+      "metadata": "Chapter 7",
+      "authorId": 21,
+      "sourceId": 22,
+      "tagIds": [32, 33]
+    },
+    {
+      "id": 607,
+      "body": "If thinking is bound up with action, then the task of getting an adequate grasp on the world, intellectually, depends on our doing stuff in it. And in fact, this is the case: to really know shoelaces, you have to tie shoes.",
+      "metadata": "Chapter 7",
+      "authorId": 21,
+      "sourceId": 22,
+      "tagIds": [9, 11, 32, 33]
+    },
+    {
+      "id": 608,
+      "body": "The fact that a firefighter's knowledge is tacit rather than explicit, and therefore not capable of articulation, means that he is not able to give an account of himself to the larger society. He is not able to make a claim for the value of his mind in the terms that prevail, and may come to doubt it himself. But his own experience provides grounds for a radical critique of the view that theoretical knowledge is the only true knowledge.",
+      "metadata": "Chapter 7",
+      "authorId": 21,
+      "sourceId": 22,
+      "tagIds": [32, 33]
+    },
+    {
+      "id": 609,
+      "body": "An experienced mechanic can tell too lean from too rich by looking at the spark plugs; they will look blanched white in the first case and sooty in the second.",
+      "metadata": "Chapter 7",
+      "authorId": 21,
+      "sourceId": 22,
+      "tagIds": [32]
+    },
+    {
+      "id": 610,
+      "body": "For humans, tools point to the necessity of moral inquiry. Because nature makes only ambiguous prescriptions for us, we are compelled to ask, what is good? If you give a young boy a hammer for the first time and watch his face, you will see an awareness of this burden dawning on him (as he turns to the cat, for example).",
+      "metadata": "Chapter 8",
+      "authorId": 21,
+      "sourceId": 22,
+      "tagIds": [27, 33, 34]
+    },
+    {
+      "id": 611,
+      "body": "To be capable of sustaining our interest, a job has to have room for progress in excellence.",
+      "metadata": "Chapter 8",
+      "authorId": 21,
+      "sourceId": 22,
+      "tagIds": [31]
+    },
+    {
+      "id": 612,
+      "body": "As the subsequent history of banking illustrates, any job that can be scaled up, depersonalized, and made to answer to forces remote from the scene of work is vulnerable to degradation, even to the point of requiring that the person who does the job actively suppress his better judgment.",
+      "metadata": "Chapter 9",
+      "authorId": 21,
+      "sourceId": 22,
+      "tagIds": [31]
+    },
+    {
+      "id": 613,
+      "body": "The special appeal of the trades lies in the fact that they resist this tendency toward remote control, because they are inherently situated in a particular context. In the best cases, the building and fixing that they do are embedded in a community of using.",
+      "metadata": "Chapter 9",
+      "authorId": 21,
+      "sourceId": 22,
+      "tagIds": [31]
+    },
+    {
+      "id": 614,
+      "body": "Aristotle begins his 'Metaphysics' with the observation that \"all human beings by nature desire to know\". I have argued that real knowledge arises through confrontations with real things.",
+      "metadata": "Chapter 9",
+      "authorId": 21,
+      "sourceId": 22,
+      "tagIds": [33]
+    },
+    {
+      "id": 615,
+      "body": "But the praising of gifted students for being smart, by parents and teachers, has a far more pernicious effect, especially when such praise is combined with the grade inflation and soft curriculum that are notorious at elite schools. A student can avoid hard sciences and foreign languages and get a degree without ever having the unambiguous experience of being wrong.",
+      "metadata": "Chapter 9",
+      "authorId": 21,
+      "sourceId": 22,
+      "tagIds": [33]
+    },
+    {
+      "id": 616,
+      "body": "The idea of autonomy denies that we are born into a world that existed prior to us. It posits an essential aloneness; an autonomous being is free in the sense that a being severed from all others is free. To regard oneself this way is to betray the natural debts we owe to the world, and commit the moral error of ingratitude.",
+      "metadata": "Chapter 9",
+      "authorId": 21,
+      "sourceId": 22,
+      "tagIds": [15, 22, 28, 34]
     }
   ]
 }
