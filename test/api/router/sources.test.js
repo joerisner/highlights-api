@@ -17,6 +17,7 @@ test.describe('/sources', () => {
     for (const source of sources) {
       expect(source).toEqual({
         id: expect.any(Number),
+        completed: expect.any(Boolean),
         title: expect.any(String),
         type: expect.any(String)
       });

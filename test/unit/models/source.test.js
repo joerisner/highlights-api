@@ -12,7 +12,7 @@ describe('findSourceById()', () => {
   });
 
   test('returns source object when found', async () => {
-    assert.deepStrictEqual(await findSourceById(1), { id: 1, title: 'The Hobbit', type: 'BOOK' });
+    assert.deepStrictEqual(await findSourceById(1), { id: 1, completed: true, title: 'The Hobbit', type: 'BOOK' });
   });
 });
 
