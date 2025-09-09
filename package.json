@@ -17,7 +17,7 @@
     "test:unit": "node --test --test-reporter=spec \"./test/unit/**/*.js\""
   },
   "dependencies": {
-    "dotenv": "^17.2.1",
+    "dotenv": "^17.2.2",
     "express": "^5.1.0"
   },
   "devDependencies": {
